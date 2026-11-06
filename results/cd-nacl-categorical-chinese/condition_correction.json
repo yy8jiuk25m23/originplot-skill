@@ -1,0 +1,22 @@
+{
+  "basis": "用户明确确认：原100：1归CD50/NaCl1，原50；1归CD100/NaCl1，互换归属；不是简单交换横轴位置",
+  "changes": [
+    {
+      "source_file": "50；1.xlsx",
+      "sha256": "d44d37821b63d49ed7b04011c2dcc021424cf2d5b1e576d47892bd9dbcc491f3",
+      "previous_CD_uM": 50,
+      "corrected_CD_uM": 100,
+      "NaCl_uM": 1
+    },
+    {
+      "source_file": "100：1.xlsx",
+      "sha256": "40bc27e20141d2e93bdbb82a6d7e3f2b9dd941efafbf62ed8ac8b7703ea5c049",
+      "previous_CD_uM": 100,
+      "corrected_CD_uM": 50,
+      "NaCl_uM": 1
+    }
+  ],
+  "raw_files_modified": false,
+  "other_four_conditions": "unchanged",
+  "x_order": "恢复原指定分类顺序：CD50/1、CD100/1、CD100/5、CD100/10、CD200/1、CD200/5"
+}

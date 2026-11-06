@@ -1,3 +1,5 @@
+> **历史版本：**本目录未包含用户后续确认的最新50/1与100/1数据归属互换更正。请使用[最新更正后的单图与统计](../cd-nacl-categorical-chinese/README.md)。
+
 > **Superseded input:** the user replaced the 200/5 μM file. This historical result uses the old file and must not be used for the corrected experiment. See [corrected target-ion results](../cd-nacl-target-ion/README.md).
 
 # CD–NaCl mass-spectrometry quantification — Figure 1 preparation

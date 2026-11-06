@@ -1,3 +1,5 @@
+> **历史版本：**本目录未包含用户后续确认的最新50/1与100/1数据归属互换更正。请使用[最新更正后的单图与统计](../cd-nacl-categorical-chinese/README.md)。
+
 # Target-ion analysis: CD–NaCl effects at m/z ≈ 590.2
 
 ## Corrected input

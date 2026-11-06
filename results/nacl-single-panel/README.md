@@ -1,3 +1,5 @@
+> **历史版本：**本目录未包含用户后续确认的最新50/1与100/1数据归属互换更正。请使用[最新更正后的单图与统计](../cd-nacl-categorical-chinese/README.md)。
+
 # One-figure analysis: NaCl effect at CD = 100 μM
 
 This result supersedes earlier 100/1 and 100/10 analyses, using only the three latest uploads specified by the user. The other three CD conditions are excluded. The 1 and 10 μM input filenames use a full-width colon (：); the 5 μM file uses a full-width semicolon (；). inputs.json records exact filenames and SHA256 hashes to prevent accidental selection of older same-named files.
