@@ -1,0 +1,7 @@
+{
+  "family": "Source Han Sans SC",
+  "中文名称": "思源黑体简体中文",
+  "source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+  "sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+  "mathematical_symbol_fallback": "DejaVu Sans for superscript 6 only"
+}
