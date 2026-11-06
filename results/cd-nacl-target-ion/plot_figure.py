@@ -29,7 +29,7 @@ for ax,(letter,title,fixed,key,xvals,mask,color) in zip(axs,settings):
   ax.errorbar(x,row.mean_million,yerr=row.SD_million,fmt='o',color=color,markeredgecolor='white',markeredgewidth=.6,ms=5.3,capsize=3,elinewidth=1,zorder=4)
   ax.text(x,max(vals.max(),row.mean_million+row.SD_million)+.75,f'n={row.n}',ha='center',fontsize=7,color='#4D4D4D')
  ax.set_xlim(min(xvals)-span*.14,max(xvals)+span*.14)
- ax.set_xticks(xvals);ax.set_ylim(0,13);ax.set_yticks([0,3,6,9,12]);ax.tick_params(direction='out',length=3)
+ ax.set_xticks(xvals);ax.set_ylim(0,15);ax.set_yticks([0,3,6,9,12,15]);ax.tick_params(direction='out',length=3)
  ax.set_xlabel(('CD' if key=='CD_uM' else 'NaCl')+' concentration (μM)',labelpad=7)
  ax.spines[['top','right']].set_visible(False)
 axs[0].set_ylabel('Peak intensity at m/z ≈ 590.2\n(×10⁶ a.u.)',labelpad=8)

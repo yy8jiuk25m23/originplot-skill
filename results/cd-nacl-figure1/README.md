@@ -1,3 +1,5 @@
+> **Superseded input:** the user replaced the 200/5 μM file. This historical result uses the old file and must not be used for the corrected experiment. See [corrected target-ion results](../cd-nacl-target-ion/README.md).
+
 # CD–NaCl mass-spectrometry quantification — Figure 1 preparation
 
 Status: quantitative analysis and Python-rendered 2×2 Figure 1 completed. The user accepted the proposed design and delegated renderer choice. PNG/TIFF are 600 dpi (4724×3897 pixels, 200×165 mm nominal); PDF and SVG are vector exports. A real OPJU remains unavailable because this host has no Windows Origin runtime.

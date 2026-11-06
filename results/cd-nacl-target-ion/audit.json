@@ -62,11 +62,11 @@
     },
     {
       "file": "200\uff1b5.xlsx",
-      "sha256": "3fa2c03ab3bfa4898ae6986536c2fb422942872bd8b6d45c9fa871328ecf6e29",
+      "sha256": "0a79d74dd4e2d65049fe40ada18f1e37ffb36020e4af9cb4071f36847dee5c7d",
       "sheet": "200\uff1b5",
       "rows": 95000,
       "mz_min": 50.0,
-      "mz_max": 999.989996782823,
+      "mz_max": 999.989994960674,
       "n": 5,
       "window_points": 20,
       "plot_points": 20,
@@ -74,15 +74,14 @@
     }
   ],
   "checks": {
-    "highest_mean_is_200_1": true,
+    "highest_mean_is_200_1": false,
     "100_5_exceeds_100_1_and_100_10": true,
     "total_columns_28": true,
-    "each_target_window_has_one_interior_local_maximum": true,
-    "all_28_narrow_window_maxima_match_prior_values": true
+    "each_target_window_has_one_interior_local_maximum": true
   },
-  "method": "Inclusive 590.1\u2013590.3; max per acquisition; sample SD ddof=1; all ties recorded, first used for source row; no preprocessing, normalization or exclusion; scaling 1e6 only for display; no inferential tests.",
   "peak_mz_range": [
-    590.198201887346,
+    590.193589225458,
     590.268224407589
-  ]
+  ],
+  "method": "Inclusive 590.1\u2013590.3; max per acquisition; sample SD ddof=1; all ties recorded, first used for source row; no preprocessing, normalization or exclusion; scaling 1e6 only for display; no inferential tests."
 }

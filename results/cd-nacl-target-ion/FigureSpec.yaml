@@ -14,7 +14,7 @@ analysis:
   unmeasured_concentrations: no prediction or interpolation
 style:
   font: Liberation Sans (Arial-compatible)
-  shared_y_limits: [0, 13]
+  shared_y_limits: [0, 15]
   y_title: Peak intensity at m/z ≈ 590.2 (×10⁶ a.u.)
   data: all original per-column target peak intensities
   mean: filled symbol with sample SD error bar

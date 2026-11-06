@@ -9,9 +9,11 @@ rows=[]; summaries=[]; audits=[]; windows=[]
 conditions=[(50,1),(100,1),(100,5),(100,10),(200,1),(200,5)]
 for cd,salt in conditions:
     filename=f'{cd}；{salt}.xlsx'
-    matches=list(Path(os.environ.get('CD_NACL_INPUT_DIR','/workspace/attachments')).rglob(filename))
+    matches=list(Path(os.environ.get('CD_NACL_INPUT_DIR','/workspace/cd-nacl-corrected-inputs')).rglob(filename))
     assert len(matches)==1, matches
     path=matches[0]
+    expected_hashes=json.loads((BASE/'input_manifest.json').read_text())
+    assert hashlib.sha256(path.read_bytes()).hexdigest()==expected_hashes[filename], f'Input hash mismatch: {filename}; use corrected selected inputs'
     wb=load_workbook(path,read_only=True,data_only=True)
     assert len(wb.sheetnames)==1
     ws=wb[wb.sheetnames[0]]

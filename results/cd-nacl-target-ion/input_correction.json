@@ -1,0 +1,9 @@
+{
+  "replaced_condition": "200/5",
+  "replacement_upload": "file_00000000a2ac820b9aa8526d88131393",
+  "replacement_sha256": "0a79d74dd4e2d65049fe40ada18f1e37ffb36020e4af9cb4071f36847dee5c7d",
+  "superseded_sha256": "3fa2c03ab3bfa4898ae6986536c2fb422942872bd8b6d45c9fa871328ecf6e29",
+  "other_five_inputs_unchanged": true,
+  "old_200_5_mean_au": 7031409.6,
+  "corrected_200_5_mean_au": 11583263.6
+}
