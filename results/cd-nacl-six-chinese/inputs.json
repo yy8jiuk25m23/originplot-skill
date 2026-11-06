@@ -1,0 +1,44 @@
+[
+  {
+    "CD_uM": 50,
+    "NaCl_uM": 1,
+    "filename": "50；1.xlsx",
+    "directory": "/workspace/attachments/69b6cdec-8295-4b14-bc39-559aa5d64073",
+    "sha256": "d44d37821b63d49ed7b04011c2dcc021424cf2d5b1e576d47892bd9dbcc491f3"
+  },
+  {
+    "CD_uM": 100,
+    "NaCl_uM": 1,
+    "filename": "100：1.xlsx",
+    "directory": "/workspace/attachments/855e8245-5cd8-4187-ab03-44605b953a0c",
+    "sha256": "40bc27e20141d2e93bdbb82a6d7e3f2b9dd941efafbf62ed8ac8b7703ea5c049"
+  },
+  {
+    "CD_uM": 100,
+    "NaCl_uM": 5,
+    "filename": "100；5.xlsx",
+    "directory": "/workspace/attachments/153fd71c-e0d9-4abc-9f19-f2ca6b62d2b8",
+    "sha256": "d8dbbcca9468c55e4ddfc805a47eaaa0b545000635772a0a459ad91adb16d65d"
+  },
+  {
+    "CD_uM": 100,
+    "NaCl_uM": 10,
+    "filename": "100：10.xlsx",
+    "directory": "/workspace/attachments/74109160-ba36-46e7-9dc3-c553e481d8fb",
+    "sha256": "1f431897746736e90cd215341df489bc818033967ef64eaa500377a56eb3b60f"
+  },
+  {
+    "CD_uM": 200,
+    "NaCl_uM": 1,
+    "filename": "200；1.xlsx",
+    "directory": "/workspace/attachments/06681f03-bb4b-44c8-ae5e-bb42c11c2f69",
+    "sha256": "a4bf97e3172627206d8483f6a9e28b209e248f8775e4a65bbdea6da9bad3ae4e"
+  },
+  {
+    "CD_uM": 200,
+    "NaCl_uM": 5,
+    "filename": "200；5.xlsx",
+    "directory": "/workspace/attachments/8d12623d-bbba-410e-9bd7-c544bc2b3d81",
+    "sha256": "0a79d74dd4e2d65049fe40ada18f1e37ffb36020e4af9cb4071f36847dee5c7d"
+  }
+]

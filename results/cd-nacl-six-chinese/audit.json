@@ -1,0 +1,78 @@
+{
+  "inputs": [
+    {
+      "CD_uM": 50,
+      "NaCl_uM": 1,
+      "file": "50\uff1b1.xlsx",
+      "sha256": "d44d37821b63d49ed7b04011c2dcc021424cf2d5b1e576d47892bd9dbcc491f3",
+      "n": 5,
+      "rows": 95000,
+      "window_points": 22
+    },
+    {
+      "CD_uM": 100,
+      "NaCl_uM": 1,
+      "file": "100\uff1a1.xlsx",
+      "sha256": "40bc27e20141d2e93bdbb82a6d7e3f2b9dd941efafbf62ed8ac8b7703ea5c049",
+      "n": 5,
+      "rows": 95000,
+      "window_points": 22
+    },
+    {
+      "CD_uM": 100,
+      "NaCl_uM": 5,
+      "file": "100\uff1b5.xlsx",
+      "sha256": "d8dbbcca9468c55e4ddfc805a47eaaa0b545000635772a0a459ad91adb16d65d",
+      "n": 5,
+      "rows": 95000,
+      "window_points": 22
+    },
+    {
+      "CD_uM": 100,
+      "NaCl_uM": 10,
+      "file": "100\uff1a10.xlsx",
+      "sha256": "1f431897746736e90cd215341df489bc818033967ef64eaa500377a56eb3b60f",
+      "n": 5,
+      "rows": 70000,
+      "window_points": 22
+    },
+    {
+      "CD_uM": 200,
+      "NaCl_uM": 1,
+      "file": "200\uff1b1.xlsx",
+      "sha256": "a4bf97e3172627206d8483f6a9e28b209e248f8775e4a65bbdea6da9bad3ae4e",
+      "n": 5,
+      "rows": 95000,
+      "window_points": 22
+    },
+    {
+      "CD_uM": 200,
+      "NaCl_uM": 5,
+      "file": "200\uff1b5.xlsx",
+      "sha256": "0a79d74dd4e2d65049fe40ada18f1e37ffb36020e4af9cb4071f36847dee5c7d",
+      "n": 5,
+      "rows": 95000,
+      "window_points": 22
+    }
+  ],
+  "inclusive_window_mz": [
+    590.1,
+    590.32
+  ],
+  "all_30_peaks_single_interior_local_maximum": true,
+  "CD100_decrease_10_vs_5_percent": 79.54274179564692,
+  "CD100_NaCl10_CV_percent": 72.81615011872869,
+  "peak_mz_range": [
+    590.141404684012,
+    590.268224407589
+  ],
+  "preprocessing": "none",
+  "SD": "sample ddof=1",
+  "inferential_tests": "none",
+  "independent_validation": {
+    "reader": "openpyxl (analysis used direct XLSX XML)",
+    "source_cells_and_full_windows_checked": 30,
+    "statistics": "statistics.mean/stdev independent six-group check",
+    "result": "passed"
+  }
+}
