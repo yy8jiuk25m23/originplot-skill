@@ -15,13 +15,13 @@ assert font.is_file(),'Provide official SourceHanSansSC-Regular.otf via CD_NACL_
 font_manager.fontManager.addfont(str(font));font_name=font_manager.FontProperties(fname=str(font)).get_name()
 plt.rcParams.update({'font.family':[font_name,'DejaVu Sans'],'font.size':10,'axes.labelsize':11,'axes.linewidth':.8,'axes.unicode_minus':False,'path.simplify':False,'savefig.facecolor':'white'})
 p=pd.read_csv(BASE/'individual_peaks.csv');s=pd.read_csv(BASE/'summary.csv');audit=json.loads((BASE/'audit.json').read_text())
-order=[(50,1),(100,1),(100,5),(100,10),(200,1),(200,5)]
+order=[(100,1),(50,1),(100,5),(100,10),(200,1),(200,5)]
 s=s.set_index(['CD_uM','NaCl_uM']).loc[order].reset_index()
 assert len(s)==6 and len(p)==s.n.sum()
-colors=['#3775BA','#0F4D92','#26805C','#B43F3F','#588BB9','#50A47A']
+colors=['#0F4D92','#3775BA','#26805C','#B43F3F','#588BB9','#50A47A']
 fig,ax=plt.subplots(figsize=(230/25.4,155/25.4))
 fig.subplots_adjust(left=.095,right=.97,bottom=.275,top=.775)
-fig.suptitle('不同环糊精与 NaCl 浓度组合对 m/z≈590.2 目标离子峰强度的梯度影响',fontsize=13.2,y=.965)
+fig.suptitle('不同环糊精与 NaCl 浓度组合对 m/z=590.2 目标离子峰强度的梯度影响',fontsize=13.2,y=.965)
 # Equal spacing denotes named experimental categories, not a continuous concentration axis.
 xs=np.arange(1,7,dtype=float)
 line=ax.plot(xs,s.mean_million,color='#777777',lw=1.05,zorder=1)[0]
