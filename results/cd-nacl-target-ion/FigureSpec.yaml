@@ -1,0 +1,42 @@
+figure:
+  id: Figure1_target_ion
+  title: Concentration effects on the target ion at m/z ≈ 590.2
+  layout: horizontal 1x3
+  size_mm: [230, 95]
+  design_authority: user specified revised panels and previously delegated design decisions
+analysis:
+  inclusive_peak_window_mz: [590.1, 590.3]
+  method: maximum measured raw intensity per original acquisition column
+  verification: each column must have one interior local maximum within target window
+  statistics: arithmetic mean; sample SD (ddof=1); CV=100*SD/mean
+  preprocessing: none
+  significance_tests: none
+  unmeasured_concentrations: no prediction or interpolation
+style:
+  font: Liberation Sans (Arial-compatible)
+  shared_y_limits: [0, 13]
+  y_title: Peak intensity at m/z ≈ 590.2 (×10⁶ a.u.)
+  data: all original per-column target peak intensities
+  mean: filled symbol with sample SD error bar
+  lines: straight segments connecting measured means only; visual guides, not a model
+  scatter: deterministic horizontal offsets only
+panels:
+  A:
+    title: CD concentration effect
+    fixed: NaCl = 1 μM
+    x: CD concentration (μM)
+    values: [50, 100, 200]
+  B:
+    title: NaCl concentration effect at 100 μM CD
+    fixed: CD = 100 μM
+    x: NaCl concentration (μM)
+    values: [1, 5, 10]
+  C:
+    title: NaCl concentration effect at 200 μM CD
+    fixed: CD = 200 μM
+    x: NaCl concentration (μM)
+    values: [1, 5]
+export:
+  raster: [600 dpi PNG, 600 dpi TIFF]
+  vector: [PDF, SVG]
+  OPJU: unavailable without Windows Origin; do not create a placeholder
