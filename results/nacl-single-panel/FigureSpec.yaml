@@ -1,0 +1,32 @@
+figure:
+  id: Figure_NaCl_CD100
+  layout: single panel
+  title: Effect of NaCl concentration on the intensity and repeatability of the m/z ≈ 590.2 target ion at CD = 100 μM
+  size_mm: [180, 125]
+  authorization: user detailed single-panel request and existing delegated design authority
+analysis:
+  source: only three newly uploaded 100 μM CD files, identified by inputs.json SHA256
+  inclusive_window_mz: [590.10, 590.32]
+  peak: one interior local maximum per acquisition; no addition of columns or neighboring peaks
+  n: [5, 5, 5]
+  SD: sample ddof=1
+  CV: 100*SD/mean
+  preprocessing: none
+plot:
+  x: numeric NaCl concentration (μM), measured values 1, 5, 10
+  y: Peak intensity of m/z ≈ 590.2 (×10⁶ a.u.)
+  layers: all 15 raw peak heights with small horizontal offsets; mean±SD; thin straight lines connecting measured means as visual guides
+  annotations: group means and CV; actual computed decrease of 10 vs 5 μM
+  colors: {1: blue, 5: green, 10: red}
+  unmeasured_values: no prediction or interpolation
+  statistics: no P values or significance marks
+  interpretation: observed attenuation and poor repeatability; salt suppression remains a potential mechanism
+style:
+  background: white
+  font: Arial preferred; Liberation Sans substitute if Arial absent
+  boxplot: false
+  barplot: false
+exports:
+  raster: [600 dpi PNG, 600 dpi TIFF]
+  vector: [PDF, SVG]
+  OPJU: unavailable on current Linux host

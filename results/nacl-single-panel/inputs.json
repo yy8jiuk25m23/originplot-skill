@@ -1,0 +1,20 @@
+[
+  {
+    "NaCl_uM": 1,
+    "filename": "100：1.xlsx",
+    "directory": "/workspace/attachments/855e8245-5cd8-4187-ab03-44605b953a0c",
+    "sha256": "40bc27e20141d2e93bdbb82a6d7e3f2b9dd941efafbf62ed8ac8b7703ea5c049"
+  },
+  {
+    "NaCl_uM": 5,
+    "filename": "100；5.xlsx",
+    "directory": "/workspace/attachments/153fd71c-e0d9-4abc-9f19-f2ca6b62d2b8",
+    "sha256": "d8dbbcca9468c55e4ddfc805a47eaaa0b545000635772a0a459ad91adb16d65d"
+  },
+  {
+    "NaCl_uM": 10,
+    "filename": "100：10.xlsx",
+    "directory": "/workspace/attachments/74109160-ba36-46e7-9dc3-c553e481d8fb",
+    "sha256": "1f431897746736e90cd215341df489bc818033967ef64eaa500377a56eb3b60f"
+  }
+]

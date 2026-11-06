@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "file": "100\uff1a1.xlsx",
+      "sha256": "40bc27e20141d2e93bdbb82a6d7e3f2b9dd941efafbf62ed8ac8b7703ea5c049",
+      "rows": 95000,
+      "n": 5,
+      "window_points": 22
+    },
+    {
+      "file": "100\uff1b5.xlsx",
+      "sha256": "d8dbbcca9468c55e4ddfc805a47eaaa0b545000635772a0a459ad91adb16d65d",
+      "rows": 95000,
+      "n": 5,
+      "window_points": 22
+    },
+    {
+      "file": "100\uff1a10.xlsx",
+      "sha256": "1f431897746736e90cd215341df489bc818033967ef64eaa500377a56eb3b60f",
+      "rows": 70000,
+      "n": 5,
+      "window_points": 22
+    }
+  ],
+  "window_mz": [
+    590.1,
+    590.32
+  ],
+  "decrease_10_vs_5_percent": 79.54274179564692,
+  "peak_mz_range": [
+    590.141404684012,
+    590.258221190411
+  ],
+  "all_15_peaks_single_interior_local_maximum": true,
+  "preprocessing": "none",
+  "SD": "sample ddof=1",
+  "inferential_tests": "none"
+}
