@@ -1,0 +1,91 @@
+figure:
+  id: Figure1
+  title: CD–NaCl concentration and mass-spectrometric response
+  status: user accepted plan and delegated renderer selection
+runtime:
+  target: Windows Python with installed licensed Origin/OriginPro
+  current_host: Linux; Origin unavailable
+  save_project: true
+  project_path: Figure1.opju
+  alternative_renderer: Python/Matplotlib, selected after user acceptance; no OPJU
+analysis:
+  peak_window_mz: [589.9, 590.5]
+  window_inclusive: true
+  peak_method: maximum per original intensity column; retain all tied locations
+  n: [5, 3, 5, 5, 5, 5]
+  SD: sample, ddof=1
+  CV: SD/mean * 100
+  preprocessing: none
+  significance_tests: none
+  display_intensity_divisor: 1000000
+  missing_combinations: NA; never zero; no interpolation
+  acquisition_semantics: index only, temporal or biological independence unconfirmed
+data:
+  sources: six original XLSX files, unchanged
+  worksheet_objects: raw spectra per condition, individual peaks, summary
+  matrix_object: 3 by 3 mean intensity grid with three missing cells
+page:
+  id: Figure1
+  layout: 2x2
+  size_mm: [190, 155]
+  panel_order: [A, B, C, D]
+style:
+  background: white
+  font_preference: [Arial, Helvetica, Liberation Sans]
+  panel_labels: bold uppercase A B C D at upper left
+  grid: false
+  legend_frame: false
+  palette:
+    50/1: '#0F4D92'
+    100/1: '#42949E'
+    100/5: '#B64342'
+    100/10: '#767676'
+    200/1: '#9A4D8E'
+    200/5: '#8BCF8B'
+  consistent_colors_across_panels: true
+layers:
+  - id: A
+    grid_cell: [0, 0]
+    plot: six unsmoothed pointwise mean raw spectra; connect measured points
+    x: {title: 'm/z', limits: [589.8, 591.6]}
+    y: {title: 'Ion intensity (×10⁶, a.u.)', baseline: 0, independent_normalization: false}
+    legend: CD/NaCl concentrations in μM
+    annotation: 'm/z ≈ 590.2; no chemical assignment'
+  - id: B
+    grid_cell: [0, 1]
+    plot: all 28 individual peak heights with mean ± sample SD
+    group_order: [50/1, 100/1, 100/5, 100/10, 200/1, 200/5]
+    x: {title: 'CD/NaCl (μM)'}
+    y: {title: 'Peak intensity (×10⁶, a.u.)', baseline: 0}
+    highlight: highest observed group mean, modest text label; no significance marks
+    scatter_offsets: deterministic horizontal offsets only, no changes to heights
+    labels: group-specific n
+  - id: C
+    grid_cell: [1, 0]
+    plot: categorical concentration heatmap; equally sized cells, no continuous interpolation
+    x: {title: 'NaCl concentration (μM)', ticks: [1, 5, 10]}
+    y: {title: 'CD concentration (μM)', ticks: [50, 100, 200]}
+    color: mean peak intensity, continuous viridis
+    labels: measured means in ×10⁶, 2 decimals
+    missing: light gray, NA
+    colorbar: 'Mean peak intensity (×10⁶, a.u.)'
+  - id: D
+    grid_cell: [1, 1]
+    plot: six line-and-symbol series of per-column peak heights
+    x: {title: 'Acquisition index', ticks: [1, 2, 3, 4, 5]}
+    y: {title: 'Peak intensity (×10⁶, a.u.)', baseline: 0}
+    n_for_100_1: 3; stop after index 3
+    temporal_interpretation: none
+export:
+  raster: [PNG, TIFF]
+  dpi: 600
+  vector: [PDF, SVG]
+  editable_origin_project: OPJU; only via actual Origin
+  tables: [quantification.xlsx, individual_peaks.csv, summary.csv, spectra_window.csv, heatmap_million.csv]
+qa:
+  verify_original_files_by_sha256: true
+  raw_points_total: 28
+  verify_expected_rankings_without_forcing: true
+  preserve_all_original_values: true
+  no_smoothing_baseline_normalization_or_interpolation: true
+  no_assumed_ion_formula_or_inferential_statistics: true

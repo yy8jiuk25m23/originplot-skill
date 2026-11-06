@@ -1,0 +1,83 @@
+{
+  "inputs": [
+    {
+      "file": "50\uff1b1.xlsx",
+      "sha256": "d44d37821b63d49ed7b04011c2dcc021424cf2d5b1e576d47892bd9dbcc491f3",
+      "sheet": "50\uff1b1",
+      "rows": 95000,
+      "mz_min": 50.0,
+      "mz_max": 999.989996782823,
+      "n": 5,
+      "window_points": 60,
+      "plot_points": 180,
+      "missing_values": 0
+    },
+    {
+      "file": "100\uff1b1.xlsx",
+      "sha256": "9bbdbae1fdf5e3dd36860e963ea761d941179511695ac352d9a3286906d788b7",
+      "sheet": "100\uff1b1",
+      "rows": 95000,
+      "mz_min": 50.0,
+      "mz_max": 999.989996782823,
+      "n": 3,
+      "window_points": 60,
+      "plot_points": 180,
+      "missing_values": 0
+    },
+    {
+      "file": "100\uff1b5.xlsx",
+      "sha256": "d8dbbcca9468c55e4ddfc805a47eaaa0b545000635772a0a459ad91adb16d65d",
+      "sheet": "100\uff1b5",
+      "rows": 95000,
+      "mz_min": 50.0,
+      "mz_max": 999.989996782823,
+      "n": 5,
+      "window_points": 60,
+      "plot_points": 180,
+      "missing_values": 0
+    },
+    {
+      "file": "100\uff1b10.xlsx",
+      "sha256": "4ccfec29c55e79253e6442527eb6ce5869b2245d089cfd6addcf8c1824d3cd76",
+      "sheet": "100\uff1b10",
+      "rows": 95000,
+      "mz_min": 50.0,
+      "mz_max": 999.989996782823,
+      "n": 5,
+      "window_points": 60,
+      "plot_points": 180,
+      "missing_values": 0
+    },
+    {
+      "file": "200\uff1b1.xlsx",
+      "sha256": "a4bf97e3172627206d8483f6a9e28b209e248f8775e4a65bbdea6da9bad3ae4e",
+      "sheet": "200\uff1b1",
+      "rows": 95000,
+      "mz_min": 50.0,
+      "mz_max": 999.989996782823,
+      "n": 5,
+      "window_points": 60,
+      "plot_points": 180,
+      "missing_values": 0
+    },
+    {
+      "file": "200\uff1b5.xlsx",
+      "sha256": "3fa2c03ab3bfa4898ae6986536c2fb422942872bd8b6d45c9fa871328ecf6e29",
+      "sheet": "200\uff1b5",
+      "rows": 95000,
+      "mz_min": 50.0,
+      "mz_max": 999.989996782823,
+      "n": 5,
+      "window_points": 60,
+      "plot_points": 180,
+      "missing_values": 0
+    }
+  ],
+  "checks": {
+    "highest_mean_is_200_1": true,
+    "100_5_exceeds_100_1_and_100_10": true,
+    "total_columns_28": true,
+    "unmeasured_cells_3": true
+  },
+  "method": "Inclusive 589.9\u2013590.5; max per acquisition; sample SD ddof=1; all ties recorded, first used for source row; no preprocessing, normalization or exclusion; scaling 1e6 only for display; no inferential tests."
+}
