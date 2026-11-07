@@ -4,7 +4,7 @@
 
 ## 横轴顺序与图形
 
-六个等间距分类按用户指定顺序：CD50/NaCl1、CD100/NaCl1、CD100/NaCl5、CD100/NaCl10、CD200/NaCl1、CD200/NaCl5（均为μM）。刻度标签直接分两行显示完整CD和NaCl浓度，横轴标题为“试剂浓度组合”。每组显示全部原始空心采集点、实心均值与样本标准差误差棒。小幅横向错位避开均值中心，纵坐标强度保持原值。图内不再标注每组均值和CV，已将其单独整理为均值与CV汇总表.xlsx和同名CSV。横轴不显示“试剂浓度组合”标题，保留六个完整浓度组合刻度标签。
+六个等间距分类按用户指定顺序：CD50/NaCl1、CD100/NaCl1、CD100/NaCl5、CD100/NaCl10、CD200/NaCl1、CD200/NaCl5（均为μM）。刻度标签直接分两行显示完整CD和NaCl浓度，横轴标题为“试剂浓度组合”。每组显示全部原始空心采集点、实心均值与样本标准差误差棒。小幅横向错位避开均值中心，纵坐标强度保持原值。图内不再标注每组均值和CV，已按用户最新要求单独整理为均值与CV汇总表.png，采用图片形式交付。横轴不显示“试剂浓度组合”标题，保留六个完整浓度组合刻度标签。
 
 一条细灰线按上述分类顺序连接全部六组均值，仅辅助阅读；相邻类别同时可能改变CD和NaCl，连线不是连续浓度响应、单变量因果曲线或对未测条件的插值。未测组合不绘制、不补零。
 
@@ -33,7 +33,7 @@ CD100条件下，NaCl10相对NaCl5的平均峰强度下降79.5427%，图中标�
 
 quantification.xlsx、individual_peaks.csv、summary.csv、target_window.csv和audit.json为审计数据，不是额外图件。FigureSpec.yaml记录本轮分类图设计。原始文件不重复提交至结果目录。
 
-安装requirements.txt内依赖；六份原始文件集中放置时用CD_NACL_INPUT_DIR指定目录，否则使用inputs.json中的当前上传路径。运行analyze.py，再运行export_statistics_table.py和plot_figure.py。用CD_NACL_FONT指定官方SourceHanSansSC-Regular.otf位置；font_source.json记录官方来源与字体哈希。
+安装requirements.txt内依赖；六份原始文件集中放置时用CD_NACL_INPUT_DIR指定目录，否则使用inputs.json中的当前上传路径。运行analyze.py，再运行render_statistics_table.py和plot_figure.py。前者直接从summary.csv生成表格PNG，无需Excel。用CD_NACL_FONT指定官方SourceHanSansSC-Regular.otf位置；font_source.json记录官方来源与字体哈希。
 
 ## Origin支持范围
 
@@ -44,3 +44,5 @@ quantification.xlsx、individual_peaks.csv、summary.csv、target_window.csv和a
 ## 单独统计表
 
 均值与CV汇总表.xlsx包含六个更正归属后的浓度组合、均值（×10⁶）和CV（%），单元格保留原计算精度，显示为均值3位小数、CV1位小数，与原图显示口径一致。同名CSV为可直接读取的UTF-8数据表。原始峰高及分组统计未改变。
+
+最新交付形式：均值与CV汇总表.png，600 dpi，4724×2244像素。单独的表格图包含六组浓度名称、均值（×10⁶）及CV（%），与此前数字口径一致。按用户要求不再以Excel作为表格交付链接；已有Excel仅保留历史和审计用途。
