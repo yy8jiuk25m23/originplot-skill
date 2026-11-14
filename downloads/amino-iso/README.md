@@ -2,6 +2,8 @@
 
 18种氨基酸的最终统一风格版。仅ISO局部数据；细线、长基线，保留实测尾部。10⁴组分为A、B两图。半胱氨酸局部边界仍有背景，用空心端点标记，未人为补零。
 
+**高清PNG图片下载：[点击下载纯图片包（12张）](https://github.com/yy8jiuk25m23/originplot-skill/raw/refs/heads/amino-iso-20261114/downloads/amino-iso/amino-acids-iso-images-png.zip)**
+
 | 内容 | 下载 |
 | --- | --- |
 | 全部图表、数据和复现材料（ZIP） | [点击下载](https://github.com/yy8jiuk25m23/originplot-skill/raw/refs/heads/amino-iso-20261114/downloads/amino-iso/amino-acids-iso-complete.zip) |

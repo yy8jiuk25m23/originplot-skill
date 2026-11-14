@@ -148,5 +148,11 @@
     "original_name": "阅读说明.txt",
     "bytes": 1042,
     "sha256": "50ccead1baddf9bf0a2a05c70386cd0ddfd5ce1cb759871ee7b8d745117877ec"
+  },
+  {
+    "file": "amino-acids-iso-images-png.zip",
+    "original_name": "氨基酸_ISO_高清PNG图片包.zip",
+    "bytes": 4851039,
+    "sha256": "d90c0f820746d60d1448a7712c321406a8a65120c8221e1c82bfb954154b0baa"
   }
 ]
