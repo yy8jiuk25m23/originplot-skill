@@ -88,5 +88,17 @@
     "original_name": "衍生前后_无标题高清PNG.zip",
     "bytes": 640303,
     "sha256": "24be45063d61a949bb336fe77c53a40a7f8536eb269d09acab6fbe3583fb4106"
+  },
+  {
+    "file": "derivatization-intensity-clean-600dpi.png",
+    "original_name": "衍生前后_原始强度_无标题高清600dpi.png",
+    "bytes": 574743,
+    "sha256": "73db8e27c1f2ca7478866e51903ac308d95b0071f1ae2e0b053bc249131bd71f"
+  },
+  {
+    "file": "derivatization-intensity-clean-600dpi.zip",
+    "original_name": "衍生前后_原始强度_无标题高清PNG.zip",
+    "bytes": 346178,
+    "sha256": "478c050ca734bf10dc1754c2ecbd541d7dcec7f70affee57bd0ede7200deec45"
   }
 ]
