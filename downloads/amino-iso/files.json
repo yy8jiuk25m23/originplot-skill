@@ -1,0 +1,152 @@
+[
+  {
+    "file": "amino-acids-iso-10e4-ab.pdf",
+    "original_name": "10^4组_AB两张图.pdf",
+    "bytes": 767459,
+    "sha256": "f1d6c938bbebe3497ae914aacf453382982990e2d8bd8340d4ba573539d5f7a4"
+  },
+  {
+    "file": "18种氨基酸_绘图窗口核查.csv",
+    "original_name": "18种氨基酸_绘图窗口核查.csv",
+    "bytes": 2561,
+    "sha256": "9f6bd68008f3b9891e0d14f6b88d693937707177639340f60d61c44798e75102"
+  },
+  {
+    "file": "3D_10^3_原始m_z.png",
+    "original_name": "3D_10^3_原始m_z.png",
+    "bytes": 430983,
+    "sha256": "1fb7b652bbffd9976a3117ce6bc0bd51c9a3a6257c1b8b49f22a7c4b335efe3d"
+  },
+  {
+    "file": "3D_10^3_峰形对齐.png",
+    "original_name": "3D_10^3_峰形对齐.png",
+    "bytes": 490511,
+    "sha256": "e2d2a82ebafc9d5a8ebfbdb30d57614f660f1a45282193fc4077f1b36dfc1882"
+  },
+  {
+    "file": "3D_10^4A_原始m_z.png",
+    "original_name": "3D_10^4A_原始m_z.png",
+    "bytes": 403325,
+    "sha256": "b8771521103739990f474d4bfbc3a60d4a2b976b6b35b3290029b8b821a71d82"
+  },
+  {
+    "file": "3D_10^4A_峰形对齐.png",
+    "original_name": "3D_10^4A_峰形对齐.png",
+    "bytes": 420307,
+    "sha256": "e81109b14bc5284a33e0259c4c175ee23240a68c54af4d5d9af45f49b5bd5934"
+  },
+  {
+    "file": "3D_10^4B_原始m_z.png",
+    "original_name": "3D_10^4B_原始m_z.png",
+    "bytes": 424372,
+    "sha256": "f6ad34fae3c83715b055f819c14f3e59764561c74e66ae4fbe209de7b4d7adba"
+  },
+  {
+    "file": "3D_10^4B_峰形对齐.png",
+    "original_name": "3D_10^4B_峰形对齐.png",
+    "bytes": 458310,
+    "sha256": "ab21c7d31206578b20e2e1eff9219ea824697cbea1b902217781d205d231a703"
+  },
+  {
+    "file": "3D_10^5_原始m_z.png",
+    "original_name": "3D_10^5_原始m_z.png",
+    "bytes": 418574,
+    "sha256": "18f96f385f0c2a78db0455cf039f441ee50c922c5861f00c9d223d2d27c824f6"
+  },
+  {
+    "file": "3D_10^5_峰形对齐.png",
+    "original_name": "3D_10^5_峰形对齐.png",
+    "bytes": 453130,
+    "sha256": "d347a736f127104c673af911e66c2e09a7f07432db605471eb495e519c825aa1"
+  },
+  {
+    "file": "3D_10^7_原始m_z.png",
+    "original_name": "3D_10^7_原始m_z.png",
+    "bytes": 310684,
+    "sha256": "d9616c0bb787e8408335dde84ee23c51d17f82b4095271a45b970c22a138f4f6"
+  },
+  {
+    "file": "3D_10^7_峰形对齐.png",
+    "original_name": "3D_10^7_峰形对齐.png",
+    "bytes": 318964,
+    "sha256": "ad44bac3f95b01195c2319db27ec451965191fae76cd446f87123456f562a458"
+  },
+  {
+    "file": "3D_10^7_重复测量.png",
+    "original_name": "3D_10^7_重复测量.png",
+    "bytes": 497593,
+    "sha256": "fd1b9f0461c8c44f1be0fe539220b8de2f6fe45d51a6431ce9a79d72040800fd"
+  },
+  {
+    "file": "全部重复测量_峰高记录.csv",
+    "original_name": "全部重复测量_峰高记录.csv",
+    "bytes": 30188,
+    "sha256": "6f35936532ca1f4851063895f48b8b354cd44f514ca4627a510bd371f19fdfbc"
+  },
+  {
+    "file": "分图对应表.csv",
+    "original_name": "分图对应表.csv",
+    "bytes": 1189,
+    "sha256": "379038dc429c12d6258a6a2165005030d7e8faaca00932ba21518e187357f858"
+  },
+  {
+    "file": "分组均值谱_原始m_z.csv",
+    "original_name": "分组均值谱_原始m_z.csv",
+    "bytes": 355965,
+    "sha256": "5479bd94ea3e1ef8f4724c694e078d07832b9c246a7d98dfdedadbfb5575f54c"
+  },
+  {
+    "file": "方法说明.md",
+    "original_name": "方法说明.md",
+    "bytes": 3427,
+    "sha256": "6293e01ee7f19cccc97de6694d343ab2fff7830d72739f56aab32b4937a5d438"
+  },
+  {
+    "file": "amino-acids-iso-complete.zip",
+    "original_name": "氨基酸_ISO_18种统一风格_完整包.zip",
+    "bytes": 14309301,
+    "sha256": "2401627b5b193bdf63a2f42d1cbe8d3a500c8d98215cf7f6ea4330e3ccbb6c4e"
+  },
+  {
+    "file": "amino-acids-iso-overview.png",
+    "original_name": "氨基酸_ISO_分图总览.png",
+    "bytes": 862379,
+    "sha256": "3f4bbfee712c240a08116dd27c2213732dbef296bd64987d8288b8ad2b46ed97"
+  },
+  {
+    "file": "amino-acids-iso-vector.pdf",
+    "original_name": "氨基酸_ISO_分图版_3D图.pdf",
+    "bytes": 146614,
+    "sha256": "14e591f192d07dcf02890ffce005c095011b1f81db87bd5e75eb06ed5ea03f16"
+  },
+  {
+    "file": "amino-acids-iso-interactive.html",
+    "original_name": "氨基酸_ISO_分图版_可旋转.html",
+    "bytes": 5474865,
+    "sha256": "76d7eafe53a050b4012bfaa09c15b79629046293858356d1472ac369cdaf75f1"
+  },
+  {
+    "file": "amino-acids-iso-figures.pdf",
+    "original_name": "氨基酸_ISO_分图版_字体兼容.pdf",
+    "bytes": 4232284,
+    "sha256": "1387b00a7d411caa1c7649fa17e7df95b49908dc066025f86643b7ba96a0b344"
+  },
+  {
+    "file": "amino-acids-iso-tables.xlsx",
+    "original_name": "氨基酸_ISO_分组与重复性.xlsx",
+    "bytes": 3158746,
+    "sha256": "76bf49bf175181dfd5cb648b9529d601485b09a25dd5c364c6863bad16ea97f5"
+  },
+  {
+    "file": "选组与强度分组.csv",
+    "original_name": "选组与强度分组.csv",
+    "bytes": 6384,
+    "sha256": "24c133f4786724d289019d10fbb99661d92e705c47f6d6bacc51e287873300b0"
+  },
+  {
+    "file": "阅读说明.txt",
+    "original_name": "阅读说明.txt",
+    "bytes": 1042,
+    "sha256": "50ccead1baddf9bf0a2a05c70386cd0ddfd5ce1cb759871ee7b8d745117877ec"
+  }
+]
