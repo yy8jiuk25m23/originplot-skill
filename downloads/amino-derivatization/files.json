@@ -76,5 +76,17 @@
     "original_name": "阅读说明.txt",
     "bytes": 1244,
     "sha256": "60e5907beac630a520d4384a016556d8b1620389e36a040d6abcf326159f72fd"
+  },
+  {
+    "file": "derivatization-fold-change-clean-600dpi.png",
+    "original_name": "衍生前后_变化倍数_无标题高清600dpi.png",
+    "bytes": 871614,
+    "sha256": "5391dd1cdf617e542278293751d09e55323d1876e6f583e62e92c8feb408cfd8"
+  },
+  {
+    "file": "derivatization-fold-change-clean-600dpi.zip",
+    "original_name": "衍生前后_无标题高清PNG.zip",
+    "bytes": 640303,
+    "sha256": "24be45063d61a949bb336fe77c53a40a7f8536eb269d09acab6fbe3583fb4106"
   }
 ]

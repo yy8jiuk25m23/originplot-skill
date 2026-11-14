@@ -1,5 +1,7 @@
 # 氨基酸衍生前后信号比较
 
+**无标题高清图：** [PNG原图（9000×5400，600dpi）](https://github.com/yy8jiuk25m23/originplot-skill/raw/refs/heads/amino-iso-20261114/downloads/amino-derivatization/derivatization-fold-change-clean-600dpi.png) · [一键下载ZIP](https://github.com/yy8jiuk25m23/originplot-skill/raw/refs/heads/amino-iso-20261114/downloads/amino-derivatization/derivatization-fold-change-clean-600dpi.zip)。仅保留图形、名称、刻度和数值标注。
+
 按用户确认的实测主峰和实际质量偏移重新计算；图中没有星号。
 
 | 文件 | 直接下载 |
