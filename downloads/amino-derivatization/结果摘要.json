@@ -1,0 +1,11 @@
+{
+  "n_compared": 17,
+  "numerical_increases": 16,
+  "numerical_decreases": 1,
+  "missing": [
+    "甘氨酸"
+  ],
+  "target_review": [],
+  "mass_shift_handling": "按用户确认，采用ISO实测主峰，接受质量偏移",
+  "maximum_ratio_amino_acid": "赖氨酸"
+}
