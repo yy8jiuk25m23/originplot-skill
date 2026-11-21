@@ -1,0 +1,19 @@
+Figure_A_Original_Peak_Distribution
+All 35 raw, unaligned peak voltages per group. Dashed/dotted lines: mean/median. Hollow points: IQR or modified-Z candidates, not confirmed errors. D Y17/Y27: both; Y33: IQR only. L: none. Scan numbers are identifiers; acquisition chronology is unverified.
+
+Figure_B_Mean_Voltage_Sensitivity
+Retained mean peak voltages with sample SD error bars (not SEM or confidence intervals), k=0..10. Deletions follow the fixed full35-median absolute-deviation ranking. No smoothing, reranking or Delta-V optimization.
+
+Figure_C_SD_Sensitivity
+Sample SD after fixed-order trimming. D k=3 ends the three IQR candidates and shows a possible slope change, not a demonstrated stable plateau. SD keeps decreasing beyond k=3. No clear L elbow. Lower retained-data SD does not establish improved instrument repeatability.
+
+Figure_D_Drift_Range_Sensitivity
+Observed peak-to-peak range=max(retained peak voltage)-min(retained peak voltage), for each nested removal count. Range reduction is a property of selection and is not evidence of improved hardware stability or a time-dependent drift model.
+
+Figure_E_DeltaV_121_Combinations
+All 121 fixed nested D/L removal combinations. Each cell is the absolute difference of retained group means, rounded only for display to three decimals. Full data and primary recommendation coincide at (0,0), shown by two outlines. Larger Delta V is not an optimality criterion. No search over arbitrary subsets.
+
+Figure_F_Before_After_Recommended
+Boxplots plus every actual peak-voltage observation. Primary D0/L0 recommendation retains all scans; before/after are the same observations shown twice for comparison, not new measurements. Boxes Q1-Q3; center line median; whiskers extend to observed values within 1.5 IQR; all points displayed separately. Hollow points are statistical candidates retained in primary analysis. Deterministic horizontal display offsets do not alter voltage values. Labels report n, median, IQR in mV.
+
+All panels use provisional, unverified V_AC (mV)=X*0.002; no instrument calibration was found. All statistics use original, unaligned peak positions. No smoothing or fitting. Actual renderer: Matplotlib; native Origin OPJU not generated.

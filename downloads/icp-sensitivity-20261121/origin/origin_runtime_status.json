@@ -1,0 +1,29 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "native_origin_available": false,
+  "opju_generated": false,
+  "python_module_specs": {
+    "originpro": false,
+    "win32com": false,
+    "pythoncom": false
+  },
+  "executables": {
+    "wine": null,
+    "wine64": null,
+    "powershell.exe": null,
+    "pwsh": null,
+    "cmd.exe": null,
+    "Origin.exe": null,
+    "Origin64.exe": null
+  },
+  "skill_requirement": "External mode must run in Windows Python.",
+  "skill_path": "/workspace/originplot-skill/originplot-skill/SKILL.md",
+  "optional_builder_status": "Syntax checked only. Actual Origin execution unavailable. Imports analysis CSV values into editable worksheets; does not reconstruct graph pages.",
+  "verified_originpro_1_1_15_api": {
+    "op.new_sheet": "new_sheet(type='w', lname='', template='', hidden=False)",
+    "WSheet.from_df": "from_df(df, c1=0, addindex=False, head='')",
+    "op.new": "new(asksave=False)",
+    "op.save": "save(file='') -> bool",
+    "op.set_show": "set_show(show=True)"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "actual_renderer": "Matplotlib",
+  "native_Origin": false,
+  "font_family": "Arial",
+  "font_SHA256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+  "colors": {
+    "D": "#2166AC",
+    "L": "#D73027"
+  },
+  "figures": [
+    {
+      "figure": "Figure_A_Original_Peak_Distribution",
+      "size_inches": [
+        8.8,
+        5.4
+      ],
+      "TIFF_pixels": [
+        5280,
+        3240
+      ],
+      "TIFF_dpi": 600,
+      "PNG_dpi": 240,
+      "font": "Arial",
+      "data_curves_smoothed": false,
+      "vector_PDF": true,
+      "editable_SVG": true
+    },
+    {
+      "figure": "Figure_B_Mean_Voltage_Sensitivity",
+      "size_inches": [
+        8.8,
+        5.4
+      ],
+      "TIFF_pixels": [
+        5280,
+        3240
+      ],
+      "TIFF_dpi": 600,
+      "PNG_dpi": 240,
+      "font": "Arial",
+      "data_curves_smoothed": false,
+      "vector_PDF": true,
+      "editable_SVG": true
+    },
+    {
+      "figure": "Figure_C_SD_Sensitivity",
+      "size_inches": [
+        8.8,
+        5.4
+      ],
+      "TIFF_pixels": [
+        5280,
+        3240
+      ],
+      "TIFF_dpi": 600,
+      "PNG_dpi": 240,
+      "font": "Arial",
+      "data_curves_smoothed": false,
+      "vector_PDF": true,
+      "editable_SVG": true
+    },
+    {
+      "figure": "Figure_D_Drift_Range_Sensitivity",
+      "size_inches": [
+        8.8,
+        5.4
+      ],
+      "TIFF_pixels": [
+        5280,
+        3240
+      ],
+      "TIFF_dpi": 600,
+      "PNG_dpi": 240,
+      "font": "Arial",
+      "data_curves_smoothed": false,
+      "vector_PDF": true,
+      "editable_SVG": true
+    },
+    {
+      "figure": "Figure_E_DeltaV_121_Combinations",
+      "size_inches": [
+        9.1,
+        7.7
+      ],
+      "TIFF_pixels": [
+        5460,
+        4620
+      ],
+      "TIFF_dpi": 600,
+      "PNG_dpi": 240,
+      "font": "Arial",
+      "data_curves_smoothed": false,
+      "vector_PDF": true,
+      "editable_SVG": true
+    },
+    {
+      "figure": "Figure_F_Before_After_Recommended",
+      "size_inches": [
+        9.8,
+        6.1
+      ],
+      "TIFF_pixels": [
+        5880,
+        3660
+      ],
+      "TIFF_dpi": 600,
+      "PNG_dpi": 240,
+      "font": "Arial",
+      "data_curves_smoothed": false,
+      "vector_PDF": true,
+      "editable_SVG": true
+    }
+  ],
+  "full_and_recommended_heatmap_cell": [
+    0,
+    0
+  ],
+  "heatmap_cell_annotations": 121,
+  "Figure_F_actual_observations_per_box": 35,
+  "Figure_F_before_after_identical_by_recommendation": true,
+  "no_smoothing": true,
+  "voltage_conversion_verified": false
+}

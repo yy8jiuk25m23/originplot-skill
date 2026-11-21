@@ -1,0 +1,76 @@
+{
+  "voltage_mapping": {
+    "mV_per_X": 0.002,
+    "offset_mV": 0,
+    "verified_instrument_calibration": false
+  },
+  "original_checksums": [
+    {
+      "sample": "D",
+      "file": "D-.86.xlsx",
+      "sha256": "205c1a8ea6cffdc60f6657cc0a79c7c9ee0d1d8f31b8e2bd88c80ecb5c2878ee"
+    },
+    {
+      "sample": "L",
+      "file": "L-.86.xlsx",
+      "sha256": "77e7a96f4a66b832780ba213d00094b15f8cb774bef05fb72405c0dd5c796358"
+    }
+  ],
+  "normalization": "Per-scan I/Imax; no smoothing/fitting/alignment",
+  "valid_scans": 70,
+  "removed_from_primary": 0,
+  "primary_recommendation": {
+    "D": 0,
+    "L": 0
+  },
+  "D_IQR_candidates": [
+    "y17",
+    "y27",
+    "y33"
+  ],
+  "D_modified_Z_candidates": [
+    "y17",
+    "y27"
+  ],
+  "L_IQR_candidates": [],
+  "L_modified_Z_candidates": [],
+  "secondary_scenario": {
+    "D": 3,
+    "L": 0,
+    "interpretation": "Sensitivity only; no confirmed acquisition failure"
+  },
+  "baseline_delta_V_mV": 12.183485714285695,
+  "overlap_definition": "Intersection of observed retained min-max peak-voltage intervals, including endpoints. This is not a probability-distribution or confidence-interval overlap test.",
+  "methods": {
+    "Source": "D-.86.xlsx and L-.86.xlsx; 150000 rows, X=0..149999; 35 scans each; originals unchanged.",
+    "Voltage": "PROVISIONAL, UNVERIFIED: V_AC (mV)=X*0.002. No instrument calibration metadata found.",
+    "Extraction": "Global maximum of each unaligned raw curve. No smoothing, fitting, peak alignment or baseline subtraction.",
+    "Normalization": "I/Imax per scan. Exact normalization preserves maximum coordinates and FWHM.",
+    "FWHM": "Closest half-maximum crossings enclosing global maximum; linear interpolation of crossing positions only, not signal reconstruction.",
+    "SD": "Sample SD, ddof=1. RSD=100*sample SD/abs(mean).",
+    "MAD": "Unscaled median absolute deviation from full35 median. Modified Z=0.6745*(V-median)/MAD; abs(Z)>3.5.",
+    "IQR": "NumPy linear quantile interpolation. Strict outside Q1-1.5*IQR, Q3+1.5*IQR. Fixed full35 thresholds.",
+    "Method A": "Fixed descending absolute deviations from ORIGINAL full35 median; ties resolved by original scan number. No cutoff specified: ranking is not an outlier classification.",
+    "Nesting": "Same fixed order for k=0..10. Do not rerank or recompute anomaly thresholds after removal.",
+    "Overlap": "Intersection of observed retained min-max peak-voltage intervals, including endpoints. This is not a probability-distribution or confidence-interval overlap test.",
+    "Recommendation": "D0/L0: retain all70 as primary. D3/L0 and D2/L0 are sensitivity scenarios, not proven acquisition failures.",
+    "Rationale": "D has threshold candidates but no confirmed acquisition errors; no established stability plateau or instrument tolerance. L has no IQR/modified-Z candidates.",
+    "Selection bias": "Trimming centralizes retained data by design. Lower post-filter SD does not demonstrate improved instrument repeatability; Delta V is not an optimization objective.",
+    "Scan index": "Y1..Y35 are curve numbers. Their acquisition chronology and independence are unverified; no inferential p-values or temporal-drift claims are made.",
+    "Renderer": "Actual figures rendered using Matplotlib; Origin Windows runtime unavailable; no native OPJU generated."
+  },
+  "method_A_has_no_cutoff": true,
+  "thresholds_computed_once_from_full35": true,
+  "ties": "Smaller original scan number first",
+  "SD_ddof": 1,
+  "quantile_method": "linear",
+  "recommendation_basis": "No confirmed acquisition faults; D k3 slope change is not a stable plateau; L has no threshold candidates. Preserve full data as primary.",
+  "native_Origin_available": false,
+  "OPJU_generated": false,
+  "actual_renderer": "Matplotlib",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

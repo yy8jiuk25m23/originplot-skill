@@ -1,0 +1,7 @@
+{
+  "package": "originpro",
+  "version": "1.1.15",
+  "wheel_url": "https://files.pythonhosted.org/packages/ec/70/743589d8d8e24c5cf863d610c50c524c75e87616c8409fbcc30320f996fb/originpro-1.1.15-py3-none-any.whl",
+  "wheel_sha256": "85f3555a5386af6af5975bc61f96194aacd4f18bf984b579f3c51991143772a5",
+  "purpose": "Inspect public API source only; no Origin runtime installed and no native project generated"
+}

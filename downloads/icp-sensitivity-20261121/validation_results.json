@@ -1,0 +1,416 @@
+{
+  "all_passed": true,
+  "artifact_checks": 56,
+  "checks": [
+    {
+      "check": "independent_statistical_QA_passed",
+      "passed": true,
+      "details": {
+        "checks": 464,
+        "max_error": 5.093170329928398e-11
+      }
+    },
+    {
+      "check": "six_figures",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_A_Original_Peak_Distribution_TIFF600dpi",
+      "passed": true,
+      "details": {
+        "pixels": [
+          5280,
+          3240
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      }
+    },
+    {
+      "check": "Figure_A_Original_Peak_Distribution_PNG_preview",
+      "passed": true,
+      "details": {
+        "pixels": [
+          2112,
+          1296
+        ],
+        "dpi": [
+          240.00459999999998,
+          240.00459999999998
+        ]
+      }
+    },
+    {
+      "check": "Figure_A_Original_Peak_Distribution_editable_SVG_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_A_Original_Peak_Distribution_SVG_no_embedded_images",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_B_Mean_Voltage_Sensitivity_TIFF600dpi",
+      "passed": true,
+      "details": {
+        "pixels": [
+          5280,
+          3240
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      }
+    },
+    {
+      "check": "Figure_B_Mean_Voltage_Sensitivity_PNG_preview",
+      "passed": true,
+      "details": {
+        "pixels": [
+          2112,
+          1296
+        ],
+        "dpi": [
+          240.00459999999998,
+          240.00459999999998
+        ]
+      }
+    },
+    {
+      "check": "Figure_B_Mean_Voltage_Sensitivity_editable_SVG_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_B_Mean_Voltage_Sensitivity_SVG_no_embedded_images",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_C_SD_Sensitivity_TIFF600dpi",
+      "passed": true,
+      "details": {
+        "pixels": [
+          5280,
+          3240
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      }
+    },
+    {
+      "check": "Figure_C_SD_Sensitivity_PNG_preview",
+      "passed": true,
+      "details": {
+        "pixels": [
+          2112,
+          1296
+        ],
+        "dpi": [
+          240.00459999999998,
+          240.00459999999998
+        ]
+      }
+    },
+    {
+      "check": "Figure_C_SD_Sensitivity_editable_SVG_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_C_SD_Sensitivity_SVG_no_embedded_images",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_D_Drift_Range_Sensitivity_TIFF600dpi",
+      "passed": true,
+      "details": {
+        "pixels": [
+          5280,
+          3240
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      }
+    },
+    {
+      "check": "Figure_D_Drift_Range_Sensitivity_PNG_preview",
+      "passed": true,
+      "details": {
+        "pixels": [
+          2112,
+          1296
+        ],
+        "dpi": [
+          240.00459999999998,
+          240.00459999999998
+        ]
+      }
+    },
+    {
+      "check": "Figure_D_Drift_Range_Sensitivity_editable_SVG_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_D_Drift_Range_Sensitivity_SVG_no_embedded_images",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_E_DeltaV_121_Combinations_TIFF600dpi",
+      "passed": true,
+      "details": {
+        "pixels": [
+          5460,
+          4620
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      }
+    },
+    {
+      "check": "Figure_E_DeltaV_121_Combinations_PNG_preview",
+      "passed": true,
+      "details": {
+        "pixels": [
+          2184,
+          1848
+        ],
+        "dpi": [
+          240.00459999999998,
+          240.00459999999998
+        ]
+      }
+    },
+    {
+      "check": "Figure_E_DeltaV_121_Combinations_editable_SVG_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_E_DeltaV_121_Combinations_SVG_no_embedded_images",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "heatmap121_exact_rounded_annotations",
+      "passed": true,
+      "details": {
+        "count": 121
+      }
+    },
+    {
+      "check": "Figure_F_Before_After_Recommended_TIFF600dpi",
+      "passed": true,
+      "details": {
+        "pixels": [
+          5880,
+          3660
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      }
+    },
+    {
+      "check": "Figure_F_Before_After_Recommended_PNG_preview",
+      "passed": true,
+      "details": {
+        "pixels": [
+          2352,
+          1464
+        ],
+        "dpi": [
+          240.00459999999998,
+          240.00459999999998
+        ]
+      }
+    },
+    {
+      "check": "Figure_F_Before_After_Recommended_editable_SVG_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_F_Before_After_Recommended_SVG_no_embedded_images",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Figure_A_Original_Peak_Distribution_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     18  0"
+      ]
+    },
+    {
+      "check": "Figure_A_Original_Peak_Distribution_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Figure_B_Mean_Voltage_Sensitivity_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     21  0"
+      ]
+    },
+    {
+      "check": "Figure_B_Mean_Voltage_Sensitivity_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Figure_C_SD_Sensitivity_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     17  0"
+      ]
+    },
+    {
+      "check": "Figure_C_SD_Sensitivity_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Figure_D_Drift_Range_Sensitivity_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     17  0"
+      ]
+    },
+    {
+      "check": "Figure_D_Drift_Range_Sensitivity_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Figure_E_DeltaV_121_Combinations_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     15  0"
+      ]
+    },
+    {
+      "check": "Figure_E_DeltaV_121_Combinations_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Figure_F_Before_After_Recommended_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     21  0"
+      ]
+    },
+    {
+      "check": "Figure_F_Before_After_Recommended_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "All_Figures_A_to_F_vector.pdf_Arial_embedded",
+      "passed": true,
+      "details": [
+        "GOFYPY+ArialMT                       CID TrueType      Identity-H       yes yes yes     54  0"
+      ]
+    },
+    {
+      "check": "All_Figures_A_to_F_vector.pdf_vector_no_raster",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "04_Recommendation_vs_Full.xlsx_Chinese_dictionary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "04_Recommendation_vs_Full.xlsx_no_error_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "01_Original35_PeakParameters.xlsx_Chinese_dictionary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "01_Original35_PeakParameters.xlsx_no_error_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "03_All121_Removal_Combinations.xlsx_Chinese_dictionary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "03_All121_Removal_Combinations.xlsx_no_error_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ICP_Sensitivity_All_Results.xlsx_Chinese_dictionary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ICP_Sensitivity_All_Results.xlsx_no_error_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "02_D_L_Removal_Sensitivity.xlsx_Chinese_dictionary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "02_D_L_Removal_Sensitivity.xlsx_no_error_cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D_original_checksum_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D_fresh_XLSX_read_matches_archived_raw_array",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "L_original_checksum_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "L_fresh_XLSX_read_matches_archived_raw_array",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_native_OPJU_misrepresented",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "independent_statistical_QA_file": "reproducibility/review/independent_main_output_QA.json",
+  "actual_renderer": "Matplotlib",
+  "native_OPJU_generated": false
+}

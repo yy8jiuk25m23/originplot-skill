@@ -1,0 +1,3 @@
+group,reference_n,median_mV,MAD_mV,Q1_mV,Q3_mV,IQR_mV,lower_mV,upper_mV,modified_Z_constant,modified_Z_threshold_strictly_greater
+D,35,131.958,1.334,131.102,133.391,2.28900000000002,127.6685,136.8245,0.6745,3.5
+L,35,144.576,1.678,143.296,146.594,3.298,138.349,151.541,0.6745,3.5

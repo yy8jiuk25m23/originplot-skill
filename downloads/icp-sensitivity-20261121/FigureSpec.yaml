@@ -1,0 +1,111 @@
+figure:
+  id: ICP_sensitivity_A_to_F
+  purpose: Nested removal sensitivity; primary retain all
+runtime:
+  requested: Origin
+  actual: Matplotlib
+  Origin_available: false
+  OPJU_generated: false
+data:
+  source_files:
+  - raw/D-.86.xlsx
+  - raw/L-.86.xlsx
+  voltage: X*0.002 mV; unverified
+  no_alignment: true
+  no_smoothing: true
+pages:
+- id: A
+  layout: single
+  layers:
+  - id: main
+    data: data/Figure_A_points.csv
+    object: worksheet
+    plots:
+    - scatter(group,scan_number,peak_voltage_mV)
+    - full35 group mean and median reference lines
+    x: Scan Number
+    y: Peak Voltage (mV)
+- id: B
+  layout: single
+  layers:
+  - id: main
+    data:
+    - data/D_sensitivity_k0_to10.csv
+    - data/L_sensitivity_k0_to10.csv
+    object: worksheet
+    plots:
+    - line+symbol(n_removed,mean_peak_mV)
+    - 'sample SD error bars: SD_mV'
+    x: Number of Removed Scans
+    y: Mean Peak Voltage (mV)
+- id: C
+  layout: single
+  layers:
+  - id: main
+    data:
+    - data/D_sensitivity_k0_to10.csv
+    - data/L_sensitivity_k0_to10.csv
+    object: worksheet
+    plots:
+    - line+symbol(n_removed,SD_mV)
+    annotation: 'D k=3: candidate boundary/possible slope change, not confirmed plateau'
+    x: Number of Removed Scans
+    y: Standard Deviation (mV)
+- id: D
+  layout: single
+  layers:
+  - id: main
+    data:
+    - data/D_sensitivity_k0_to10.csv
+    - data/L_sensitivity_k0_to10.csv
+    object: worksheet
+    plots:
+    - line+symbol(n_removed,drift_range_mV)
+    x: Number of Removed Scans
+    y: Peak Voltage Drift Range (mV)
+- id: E
+  layout: single
+  layers:
+  - id: main
+    data: data/Figure_E_heatmap_matrix.csv
+    object: matrix
+    plots:
+    - vector heatmap, columns D k, rows L k, cells delta_V_mV
+    annotation: 121 labels %.3f; full and recommended both (0,0)
+    x: Number of Removed D-Arg Scans
+    y: Number of Removed L-Arg Scans
+- id: F
+  layout: single
+  layers:
+  - id: main
+    data: data/Figure_F_points_recommended_k0.csv
+    object: worksheet
+    plots:
+    - grouped box and all raw scatter(group,stage,peak_voltage_mV)
+    annotation: Both groups k=0; before and after identical; show n, median, IQR
+    x: Group and filtering stage
+    y: Peak Voltage (mV)
+style:
+  font_family: Arial
+  background: white
+  line_width_pt:
+  - 1.5
+  - 1.8
+  colors:
+    D: '#2166AC'
+    L: '#D73027'
+  candidate_marker: hollow
+export:
+  TIFF_dpi: 600
+  PNG_dpi: 240
+  PDF: vector
+  SVG: editable text and objects
+  OPJU: unavailable, not generated
+qa:
+  scans: 70
+  nested_schemes: 22
+  combinations: 121
+  primary_k:
+    D: 0
+    L: 0
+  no_DeltaV_optimization: true
