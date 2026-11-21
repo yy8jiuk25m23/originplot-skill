@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "group": "D",
+      "n": 35,
+      "median_mV": 131.958,
+      "IQR_mV": 2.2890000000000157,
+      "measured_scans_deleted": 0,
+      "displayed_once": true
+    },
+    {
+      "group": "L",
+      "n": 35,
+      "median_mV": 144.576,
+      "IQR_mV": 3.298000000000002,
+      "measured_scans_deleted": 0,
+      "displayed_once": true
+    }
+  ],
+  "display_groups": 2,
+  "actual_scan_points": 70,
+  "voltage_conversion": "Provisional V=X*0.002 mV; unverified calibration",
+  "renderer": "Matplotlib",
+  "hollow_points": "Statistical candidates, retained in data",
+  "raster_dpi": 600
+}
