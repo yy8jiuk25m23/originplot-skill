@@ -1,0 +1,158 @@
+{
+  "experiment": "D/L arginine with verapamil hydrochloride",
+  "identity_basis": "user confirmed lower mass arginine, higher mass verapamil near455",
+  "source_files": [
+    {
+      "group": "D",
+      "file": "D-ISO.xlsx",
+      "sha256": "cda404a93a620c58b7ee8486137cd3c23f4e26b9f1b18e0443af1549e0688a94"
+    },
+    {
+      "group": "L",
+      "file": "L-ISO.xlsx",
+      "sha256": "29bc62173f8719f8f4c8623d3ddb1f3bae943efb9c88d0aef28c9e002d7ac47e"
+    }
+  ],
+  "normalization": "100*individual scan ion peak height/group mean peak height of same ion",
+  "RSD_formula": "100*sample SD/mean; ddof=1",
+  "scans_per_group": 35,
+  "ions_per_scan": 2,
+  "original_scan_count": 70,
+  "ion_peak_record_count": 140,
+  "excluded_scans": 0,
+  "windows": {
+    "D": {
+      "Arginine": [
+        12000,
+        13000
+      ],
+      "Verapamil": [
+        40000,
+        41000
+      ]
+    },
+    "L": {
+      "Arginine": [
+        170,
+        180
+      ],
+      "Verapamil": [
+        450,
+        460
+      ]
+    }
+  },
+  "no_D_absolute_mass_calibration_assumed": true,
+  "source_UI_settings": {
+    "D": {
+      "Raw": "True",
+      "Relative": "False"
+    },
+    "L": {
+      "Raw": "False",
+      "Relative": "False"
+    }
+  },
+  "comparison_limit": "Observed exported-signal variability; Raw UI setting differs and instrument preprocessing is unverified.",
+  "methods": {
+    "Source": "D-ISO.xlsx and corrected L-ISO.xlsx; each 95000 data rows, 35 scans. Invalid initial empty L upload is not used.",
+    "Ion identity": "User assigned the lower mass strong peak to arginine and the higher peak near m/z455 to verapamil.",
+    "D X axis": "Raw sampling indices 0..94999; no verified m/z transformation provided. Extract original-index windows; do not report D absolute m/z.",
+    "L X axis": "File contains its own m/z grid, 50..999.989996. Use that grid directly.",
+    "Extraction": "Every scan maximum within a fixed ion/group window; D Arg[12000,13000], Ver[40000,41000]; L Arg[170,180], Ver[450,460].",
+    "Robustness": "For all scans, the same maxima are found within +/-45 data rows of each group/ion mean-spectrum peak. No competing dominant neighbor peak.",
+    "Relative intensity": "100 * per-scan ion peak height / mean peak height of that ion in that D or L group. Group mean is 100%; individual scans are not each forced to 100%.",
+    "Stability": "RSD=100*sample SD/mean, ddof=1; smaller RSD means lower observed exported-signal variability.",
+    "No extra processing": "No scans deleted, no alignment, no smoothing, no fitting, no reconstructed signal, no baseline subtraction.",
+    "Ratio supplement": "Ver/Arg*100 is provided separately and is not the plotted independent Ver stability: its variability includes denominator fluctuations.",
+    "Limits": "UI Raw=True for D and False for L; Relative=False for both. Instrument processing behind that UI flag is unverified. Compare observed exported-signal variability, not proven intrinsic enantiomer or hardware stability.",
+    "Chronology": "X-axis Scan number follows source Y1..Y35. No acquisition timestamps or temporal-independence assumptions supplied.",
+    "Renderer": "Matplotlib, Arial; not rendered in native Origin. Origin-importable CSV supplied."
+  },
+  "qa": [
+    {
+      "group": "D",
+      "ion": "Arginine",
+      "n": 35,
+      "positive_heights": true,
+      "no_boundary_maxima": true,
+      "broad_and_narrow_windows_exactly_same_heights": true,
+      "normalization_preserves_RSD": true
+    },
+    {
+      "group": "D",
+      "ion": "Verapamil",
+      "n": 35,
+      "positive_heights": true,
+      "no_boundary_maxima": true,
+      "broad_and_narrow_windows_exactly_same_heights": true,
+      "normalization_preserves_RSD": true
+    },
+    {
+      "group": "L",
+      "ion": "Arginine",
+      "n": 35,
+      "positive_heights": true,
+      "no_boundary_maxima": true,
+      "broad_and_narrow_windows_exactly_same_heights": true,
+      "normalization_preserves_RSD": true
+    },
+    {
+      "group": "L",
+      "ion": "Verapamil",
+      "n": 35,
+      "positive_heights": true,
+      "no_boundary_maxima": true,
+      "broad_and_narrow_windows_exactly_same_heights": true,
+      "normalization_preserves_RSD": true
+    }
+  ],
+  "figures": [
+    {
+      "figure": "01_Arginine_Target_Stability",
+      "ion": "Arginine",
+      "style": "boxplot and packed actual scatter points",
+      "displayed_groups": 2,
+      "actual_points": 70,
+      "dpi": 600,
+      "raster_pixels": [
+        4560,
+        3480
+      ],
+      "y_limits": [
+        80,
+        145
+      ],
+      "normalization": "per-group per-ion mean=100%",
+      "source_scans_deleted": 0,
+      "no_smoothing": true
+    },
+    {
+      "figure": "02_Verapamil_Relative_Intensity",
+      "ion": "Verapamil",
+      "style": "boxplot and packed actual scatter points",
+      "displayed_groups": 2,
+      "actual_points": 70,
+      "dpi": 600,
+      "raster_pixels": [
+        4560,
+        3480
+      ],
+      "y_limits": [
+        80,
+        145
+      ],
+      "normalization": "per-group per-ion mean=100%",
+      "source_scans_deleted": 0,
+      "no_smoothing": true
+    }
+  ],
+  "actual_renderer": "Matplotlib",
+  "font_family": "Arial",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  }
+}

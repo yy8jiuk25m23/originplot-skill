@@ -1,0 +1,136 @@
+{
+  "files": [
+    {
+      "path": "01_Arginine_Target_Stability_600dpi.png",
+      "bytes": 345273,
+      "sha256": "ec3ec9ef981ba6672fa8d9e9378e417495a9369b81eac255d152687e415f91e9"
+    },
+    {
+      "path": "01_Arginine_Target_Stability_600dpi.tiff",
+      "bytes": 878394,
+      "sha256": "d1596ee65e170b4ff50099e2443dbc79617152d14ac489f999007cd492e88247"
+    },
+    {
+      "path": "01_Arginine_Target_Stability_editable.svg",
+      "bytes": 22140,
+      "sha256": "b571bf9ff4688593e290c7b7f289c89f0aa88191efb640ed565054d3978b768f"
+    },
+    {
+      "path": "01_Arginine_Target_Stability_preview.png",
+      "bytes": 101360,
+      "sha256": "9109fce07135ffeb00d2e37293f58e467fe6d3c620fc8a13602c01ece41fec66"
+    },
+    {
+      "path": "01_Arginine_Target_Stability_vector.pdf",
+      "bytes": 23030,
+      "sha256": "0e7c8e4e7b5e9101f78bc2d122737aefedc5d26602be7caf799cd57ea6766535"
+    },
+    {
+      "path": "02_Verapamil_Relative_Intensity_600dpi.png",
+      "bytes": 364258,
+      "sha256": "f097780781c9841ae99e1f7af4ce1c62d0d3211c5354680323c7d8d222332a07"
+    },
+    {
+      "path": "02_Verapamil_Relative_Intensity_600dpi.tiff",
+      "bytes": 983210,
+      "sha256": "e955598a23b3f5a5b2d335f12032dfbcb18d845771a1236d28e01021870afa6b"
+    },
+    {
+      "path": "02_Verapamil_Relative_Intensity_editable.svg",
+      "bytes": 22139,
+      "sha256": "26e7b6ef27e1578f686eebd892ff312f12ace6bded84b8187b33b91494937616"
+    },
+    {
+      "path": "02_Verapamil_Relative_Intensity_preview.png",
+      "bytes": 108064,
+      "sha256": "804164264e05d52dca9edabc122028e347fd616e0177586bc371a67bc44091b4"
+    },
+    {
+      "path": "02_Verapamil_Relative_Intensity_vector.pdf",
+      "bytes": 24356,
+      "sha256": "18dfee8238fb9f3ff9593f306630966d17abeab761d3c1adc9e34a3a66d13637"
+    },
+    {
+      "path": "All_140_Ion_Peak_Records.csv",
+      "bytes": 17847,
+      "sha256": "4d95195e01da650c089336a0444093b052f588ab2297130822c25c55c1adaf39"
+    },
+    {
+      "path": "D_Arginine_original_peak_window.csv.gz",
+      "bytes": 53274,
+      "sha256": "de01154ed1cd25b89ef4ceea150d18c6194ec67951186d5f53b022ec19537d2a"
+    },
+    {
+      "path": "D_Verapamil_original_peak_window.csv.gz",
+      "bytes": 36346,
+      "sha256": "d607fa15c03f8f04a2c4a16518f39b58753c02935d14d5f072008aa56502968c"
+    },
+    {
+      "path": "Figure_captions_EN.txt",
+      "bytes": 942,
+      "sha256": "5a678dca06ef41027a04dd1e3d213018286177f93029a1ebe6d5a19896e07ab3"
+    },
+    {
+      "path": "ISO_D_L_Complete.zip",
+      "bytes": 6577573,
+      "sha256": "64fe3355fe79f09530ce82bacfed354a054f960190988faf7f6321ce33e2fb72"
+    },
+    {
+      "path": "ISO_D_L_Stability_Data.xlsx",
+      "bytes": 37001,
+      "sha256": "e4d8b03f3d4155242d772a4f5908012217699459de40a3a748dbecb02e32d5c5"
+    },
+    {
+      "path": "ISO_D_L_Two_Figures.zip",
+      "bytes": 1714927,
+      "sha256": "dbc0d2a0fc5ac51b376c20c30fbcf653df786bb3976e031973f0888d79c3af6d"
+    },
+    {
+      "path": "ISO_D_L_Two_PNG.zip",
+      "bytes": 543606,
+      "sha256": "110455306fe1b0e4cedca01b16501fc986c49d41574fd212e8ab39de814ccc29"
+    },
+    {
+      "path": "Ion_Stability_Summary.csv",
+      "bytes": 1222,
+      "sha256": "8a83e5e72ffbc5938e1dc1e886ad0556fbe2a6f26b3001e225661e65f554b47a"
+    },
+    {
+      "path": "L_Arginine_original_peak_window.csv.gz",
+      "bytes": 54935,
+      "sha256": "5ba70f82c2e645530a7cbc92e59eb20da9262d42c15ac449563ae0c0b59cae1d"
+    },
+    {
+      "path": "L_Verapamil_original_peak_window.csv.gz",
+      "bytes": 34447,
+      "sha256": "b2195101e1933a171b9a98dd0b5976a31dac7143e0c0d166c003b87edd2a9170"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 5277,
+      "sha256": "1b965c670c7c289e2b08796a0ba9f06528e14139a505e659fd49f407fcc34fc9"
+    },
+    {
+      "path": "Supplement_Ver_to_Arg_Ratio.csv",
+      "bytes": 1569,
+      "sha256": "8a506077cdd169af79fa2e187b082e211d71af7371ab8d9cf98f39a41301efe6"
+    },
+    {
+      "path": "processing_record.json",
+      "bytes": 5318,
+      "sha256": "5c08b7168217d681c9431808d5b86e14ad0ac35afed4a813916d39e6a64b4027"
+    },
+    {
+      "path": "source_metadata.json",
+      "bytes": 11070,
+      "sha256": "d49a8e1f72769bc88672c3d802e18d0876d3445bb465632352e0fc33c8184363"
+    },
+    {
+      "path": "validation_results.json",
+      "bytes": 10744,
+      "sha256": "5646adc4309cb5303c7bec09e22083e7e1dd6dc0066876e73f8667ffadd7de24"
+    }
+  ],
+  "figure_count": 2,
+  "style": "boxplot and actual scatter"
+}

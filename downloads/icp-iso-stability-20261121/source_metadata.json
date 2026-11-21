@@ -1,0 +1,747 @@
+[
+  {
+    "sample": "D",
+    "file": "D-ISO.xlsx",
+    "path": "/workspace/attachments/3265e549-d4b9-4e7f-ad9f-f1cf15cba793/D-ISO.xlsx",
+    "file_id": "file_00000000690c8211865eaf5a9e5a1bca",
+    "sha256": "cda404a93a620c58b7ee8486137cd3c23f4e26b9f1b18e0443af1549e0688a94",
+    "sheet_names": [
+      "D-ISO"
+    ],
+    "headers": [
+      "x",
+      "y1",
+      "y2",
+      "y3",
+      "y4",
+      "y5",
+      "y6",
+      "y7",
+      "y8",
+      "y9",
+      "y10",
+      "y11",
+      "y12",
+      "y13",
+      "y14",
+      "y15",
+      "y16",
+      "y17",
+      "y18",
+      "y19",
+      "y20",
+      "y21",
+      "y22",
+      "y23",
+      "y24",
+      "y25",
+      "y26",
+      "y27",
+      "y28",
+      "y29",
+      "y30",
+      "y31",
+      "y32",
+      "y33",
+      "y34",
+      "y35"
+    ],
+    "numeric_rows": 95000,
+    "x_min": 0.0,
+    "x_max": 94999.0,
+    "x_strictly_increasing": true,
+    "x_step_min": 1.0,
+    "x_step_max": 1.0,
+    "nonfinite_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "negative_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "shared_strings": [
+      "x",
+      "y1",
+      "y2",
+      "y3",
+      "y4",
+      "y5",
+      "y6",
+      "y7",
+      "y8",
+      "y9",
+      "y10",
+      "y11",
+      "y12",
+      "y13",
+      "y14",
+      "y15",
+      "y16",
+      "y17",
+      "y18",
+      "y19",
+      "y20",
+      "y21",
+      "y22",
+      "y23",
+      "y24",
+      "y25",
+      "y26",
+      "y27",
+      "y28",
+      "y29",
+      "y30",
+      "y31",
+      "y32",
+      "y33",
+      "y34",
+      "y35",
+      "UI Settings",
+      "Values",
+      "Raw",
+      "True",
+      "Relative",
+      "False"
+    ],
+    "text_cells": [
+      {
+        "cell": "A1",
+        "text": "x"
+      },
+      {
+        "cell": "B1",
+        "text": "y1"
+      },
+      {
+        "cell": "C1",
+        "text": "y2"
+      },
+      {
+        "cell": "D1",
+        "text": "y3"
+      },
+      {
+        "cell": "E1",
+        "text": "y4"
+      },
+      {
+        "cell": "F1",
+        "text": "y5"
+      },
+      {
+        "cell": "G1",
+        "text": "y6"
+      },
+      {
+        "cell": "H1",
+        "text": "y7"
+      },
+      {
+        "cell": "I1",
+        "text": "y8"
+      },
+      {
+        "cell": "J1",
+        "text": "y9"
+      },
+      {
+        "cell": "K1",
+        "text": "y10"
+      },
+      {
+        "cell": "L1",
+        "text": "y11"
+      },
+      {
+        "cell": "M1",
+        "text": "y12"
+      },
+      {
+        "cell": "N1",
+        "text": "y13"
+      },
+      {
+        "cell": "O1",
+        "text": "y14"
+      },
+      {
+        "cell": "P1",
+        "text": "y15"
+      },
+      {
+        "cell": "Q1",
+        "text": "y16"
+      },
+      {
+        "cell": "R1",
+        "text": "y17"
+      },
+      {
+        "cell": "S1",
+        "text": "y18"
+      },
+      {
+        "cell": "T1",
+        "text": "y19"
+      },
+      {
+        "cell": "U1",
+        "text": "y20"
+      },
+      {
+        "cell": "V1",
+        "text": "y21"
+      },
+      {
+        "cell": "W1",
+        "text": "y22"
+      },
+      {
+        "cell": "X1",
+        "text": "y23"
+      },
+      {
+        "cell": "Y1",
+        "text": "y24"
+      },
+      {
+        "cell": "Z1",
+        "text": "y25"
+      },
+      {
+        "cell": "AA1",
+        "text": "y26"
+      },
+      {
+        "cell": "AB1",
+        "text": "y27"
+      },
+      {
+        "cell": "AC1",
+        "text": "y28"
+      },
+      {
+        "cell": "AD1",
+        "text": "y29"
+      },
+      {
+        "cell": "AE1",
+        "text": "y30"
+      },
+      {
+        "cell": "AF1",
+        "text": "y31"
+      },
+      {
+        "cell": "AG1",
+        "text": "y32"
+      },
+      {
+        "cell": "AH1",
+        "text": "y33"
+      },
+      {
+        "cell": "AI1",
+        "text": "y34"
+      },
+      {
+        "cell": "AJ1",
+        "text": "y35"
+      },
+      {
+        "cell": "AM3",
+        "text": "UI Settings"
+      },
+      {
+        "cell": "AN3",
+        "text": "Values"
+      },
+      {
+        "cell": "AM4",
+        "text": "Raw"
+      },
+      {
+        "cell": "AN4",
+        "text": "True"
+      },
+      {
+        "cell": "AM5",
+        "text": "Relative"
+      },
+      {
+        "cell": "AN5",
+        "text": "False"
+      }
+    ],
+    "nondata_cells": [
+      {
+        "cell": "AM3",
+        "value": "UI Settings"
+      },
+      {
+        "cell": "AN3",
+        "value": "Values"
+      },
+      {
+        "cell": "AM4",
+        "value": "Raw"
+      },
+      {
+        "cell": "AN4",
+        "value": "True"
+      },
+      {
+        "cell": "AM5",
+        "value": "Relative"
+      },
+      {
+        "cell": "AN5",
+        "value": "False"
+      }
+    ],
+    "skipped_rows": [],
+    "calibration_metadata_found": false,
+    "calibration_note": "Text cells, workbook metadata, side settings, and package members inspected. No voltage calibration, range, or X-to-voltage coefficient provided."
+  },
+  {
+    "sample": "L",
+    "file": "L-ISO.xlsx",
+    "path": "/workspace/attachments/8585500d-4317-4dd5-82c4-b61a51a26e7f/L-ISO.xlsx",
+    "file_id": "file_0000000013fc82119c02af1a14766bfa",
+    "sha256": "29bc62173f8719f8f4c8623d3ddb1f3bae943efb9c88d0aef28c9e002d7ac47e",
+    "sheet_names": [
+      "L-ISO"
+    ],
+    "headers": [
+      "x",
+      "y1",
+      "y2",
+      "y3",
+      "y4",
+      "y5",
+      "y6",
+      "y7",
+      "y8",
+      "y9",
+      "y10",
+      "y11",
+      "y12",
+      "y13",
+      "y14",
+      "y15",
+      "y16",
+      "y17",
+      "y18",
+      "y19",
+      "y20",
+      "y21",
+      "y22",
+      "y23",
+      "y24",
+      "y25",
+      "y26",
+      "y27",
+      "y28",
+      "y29",
+      "y30",
+      "y31",
+      "y32",
+      "y33",
+      "y34",
+      "y35"
+    ],
+    "numeric_rows": 95000,
+    "x_min": 50.0,
+    "x_max": 999.989996194878,
+    "x_strictly_increasing": true,
+    "x_step_min": 0.009979850799993528,
+    "x_step_max": 0.010006573000055141,
+    "nonfinite_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "negative_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "shared_strings": [
+      "x",
+      "y1",
+      "y2",
+      "y3",
+      "y4",
+      "y5",
+      "y6",
+      "y7",
+      "y8",
+      "y9",
+      "y10",
+      "y11",
+      "y12",
+      "y13",
+      "y14",
+      "y15",
+      "y16",
+      "y17",
+      "y18",
+      "y19",
+      "y20",
+      "y21",
+      "y22",
+      "y23",
+      "y24",
+      "y25",
+      "y26",
+      "y27",
+      "y28",
+      "y29",
+      "y30",
+      "y31",
+      "y32",
+      "y33",
+      "y34",
+      "y35",
+      "UI Settings",
+      "Values",
+      "Raw",
+      "False",
+      "Relative"
+    ],
+    "text_cells": [
+      {
+        "cell": "A1",
+        "text": "x"
+      },
+      {
+        "cell": "B1",
+        "text": "y1"
+      },
+      {
+        "cell": "C1",
+        "text": "y2"
+      },
+      {
+        "cell": "D1",
+        "text": "y3"
+      },
+      {
+        "cell": "E1",
+        "text": "y4"
+      },
+      {
+        "cell": "F1",
+        "text": "y5"
+      },
+      {
+        "cell": "G1",
+        "text": "y6"
+      },
+      {
+        "cell": "H1",
+        "text": "y7"
+      },
+      {
+        "cell": "I1",
+        "text": "y8"
+      },
+      {
+        "cell": "J1",
+        "text": "y9"
+      },
+      {
+        "cell": "K1",
+        "text": "y10"
+      },
+      {
+        "cell": "L1",
+        "text": "y11"
+      },
+      {
+        "cell": "M1",
+        "text": "y12"
+      },
+      {
+        "cell": "N1",
+        "text": "y13"
+      },
+      {
+        "cell": "O1",
+        "text": "y14"
+      },
+      {
+        "cell": "P1",
+        "text": "y15"
+      },
+      {
+        "cell": "Q1",
+        "text": "y16"
+      },
+      {
+        "cell": "R1",
+        "text": "y17"
+      },
+      {
+        "cell": "S1",
+        "text": "y18"
+      },
+      {
+        "cell": "T1",
+        "text": "y19"
+      },
+      {
+        "cell": "U1",
+        "text": "y20"
+      },
+      {
+        "cell": "V1",
+        "text": "y21"
+      },
+      {
+        "cell": "W1",
+        "text": "y22"
+      },
+      {
+        "cell": "X1",
+        "text": "y23"
+      },
+      {
+        "cell": "Y1",
+        "text": "y24"
+      },
+      {
+        "cell": "Z1",
+        "text": "y25"
+      },
+      {
+        "cell": "AA1",
+        "text": "y26"
+      },
+      {
+        "cell": "AB1",
+        "text": "y27"
+      },
+      {
+        "cell": "AC1",
+        "text": "y28"
+      },
+      {
+        "cell": "AD1",
+        "text": "y29"
+      },
+      {
+        "cell": "AE1",
+        "text": "y30"
+      },
+      {
+        "cell": "AF1",
+        "text": "y31"
+      },
+      {
+        "cell": "AG1",
+        "text": "y32"
+      },
+      {
+        "cell": "AH1",
+        "text": "y33"
+      },
+      {
+        "cell": "AI1",
+        "text": "y34"
+      },
+      {
+        "cell": "AJ1",
+        "text": "y35"
+      },
+      {
+        "cell": "AM3",
+        "text": "UI Settings"
+      },
+      {
+        "cell": "AN3",
+        "text": "Values"
+      },
+      {
+        "cell": "AM4",
+        "text": "Raw"
+      },
+      {
+        "cell": "AN4",
+        "text": "False"
+      },
+      {
+        "cell": "AM5",
+        "text": "Relative"
+      },
+      {
+        "cell": "AN5",
+        "text": "False"
+      }
+    ],
+    "nondata_cells": [
+      {
+        "cell": "AM3",
+        "value": "UI Settings"
+      },
+      {
+        "cell": "AN3",
+        "value": "Values"
+      },
+      {
+        "cell": "AM4",
+        "value": "Raw"
+      },
+      {
+        "cell": "AN4",
+        "value": "False"
+      },
+      {
+        "cell": "AM5",
+        "value": "Relative"
+      },
+      {
+        "cell": "AN5",
+        "value": "False"
+      }
+    ],
+    "skipped_rows": [],
+    "calibration_metadata_found": false,
+    "calibration_note": "Text cells, workbook metadata, side settings, and package members inspected. No voltage calibration, range, or X-to-voltage coefficient provided."
+  }
+]

@@ -1,0 +1,423 @@
+{
+  "artifacts_pass": true,
+  "artifact_checks": [
+    {
+      "file": "01_Arginine_Target_Stability_600dpi.png",
+      "dpi600": true,
+      "pixels": [
+        4560,
+        3480
+      ]
+    },
+    {
+      "file": "01_Arginine_Target_Stability_600dpi.tiff",
+      "dpi600": true,
+      "pixels": [
+        4560,
+        3480
+      ]
+    },
+    {
+      "file": "01_Arginine_Target_Stability_vector.pdf",
+      "Arial_embedded": true,
+      "no_raster_images": true
+    },
+    {
+      "file": "02_Verapamil_Relative_Intensity_600dpi.png",
+      "dpi600": true,
+      "pixels": [
+        4560,
+        3480
+      ]
+    },
+    {
+      "file": "02_Verapamil_Relative_Intensity_600dpi.tiff",
+      "dpi600": true,
+      "pixels": [
+        4560,
+        3480
+      ]
+    },
+    {
+      "file": "02_Verapamil_Relative_Intensity_vector.pdf",
+      "Arial_embedded": true,
+      "no_raster_images": true
+    }
+  ],
+  "independent_statistical_review": {
+    "reviewer": "Independent raw-window extraction, separate implementation",
+    "all_passed": true,
+    "n_checks": 91,
+    "n_failed": 0,
+    "maximum_numeric_absolute_error": 2.9802322387695312e-08,
+    "absolute_tolerance": 1e-10,
+    "relative_tolerance": 1e-12,
+    "scope": "140 original ion records, four summary groups, per-ion within-group-mean normalization, supplemental Ver/Arg ratio, raw-window exports, workbook row counts, source hashes, raw-coordinate/mass distinction and exported-signal limitation",
+    "checks": [
+      {
+        "check": "140 unique real ion records from 70 unique original scans",
+        "passed": true
+      },
+      {
+        "check": "All140 records retained",
+        "passed": true
+      },
+      {
+        "check": "D 35 unique independent scans",
+        "passed": true
+      },
+      {
+        "check": "D Arginine all35 identities and inclusion",
+        "passed": true
+      },
+      {
+        "check": "D Arginine every raw peak height",
+        "passed": true
+      },
+      {
+        "check": "D Arginine every original peak X",
+        "passed": true
+      },
+      {
+        "check": "D Arginine every original peak row",
+        "passed": true
+      },
+      {
+        "check": "D Arginine every plotted relative intensity",
+        "passed": true
+      },
+      {
+        "check": "D Arginine unique summary row",
+        "passed": true
+      },
+      {
+        "check": "D Arginine all summary metrics",
+        "passed": true
+      },
+      {
+        "check": "D Arginine group-mean normalization preserves original RSD",
+        "passed": true
+      },
+      {
+        "check": "D Arginine all35 summary retained and narrow-window robustness",
+        "passed": true
+      },
+      {
+        "check": "D Arginine raw coordinate never fabricated as mass",
+        "passed": true
+      },
+      {
+        "check": "D Arginine correct exported UI Raw and Relative metadata",
+        "passed": true
+      },
+      {
+        "check": "D Arginine full raw peak-window X export",
+        "passed": true
+      },
+      {
+        "check": "D Arginine full raw-window intensity export exact",
+        "passed": true
+      },
+      {
+        "check": "D Arginine fixed +/-45-row robustness maxima",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil all35 identities and inclusion",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil every raw peak height",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil every original peak X",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil every original peak row",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil every plotted relative intensity",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil unique summary row",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil all summary metrics",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil group-mean normalization preserves original RSD",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil all35 summary retained and narrow-window robustness",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil raw coordinate never fabricated as mass",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil correct exported UI Raw and Relative metadata",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil full raw peak-window X export",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil full raw-window intensity export exact",
+        "passed": true
+      },
+      {
+        "check": "D Verapamil fixed +/-45-row robustness maxima",
+        "passed": true
+      },
+      {
+        "check": "D 35 supplemental ratio scans",
+        "passed": true
+      },
+      {
+        "check": "D every supplemental Ver/Arg ratio",
+        "passed": true
+      },
+      {
+        "check": "L 35 unique independent scans",
+        "passed": true
+      },
+      {
+        "check": "L Arginine all35 identities and inclusion",
+        "passed": true
+      },
+      {
+        "check": "L Arginine every raw peak height",
+        "passed": true
+      },
+      {
+        "check": "L Arginine every original peak X",
+        "passed": true
+      },
+      {
+        "check": "L Arginine every original peak row",
+        "passed": true
+      },
+      {
+        "check": "L Arginine every plotted relative intensity",
+        "passed": true
+      },
+      {
+        "check": "L Arginine unique summary row",
+        "passed": true
+      },
+      {
+        "check": "L Arginine all summary metrics",
+        "passed": true
+      },
+      {
+        "check": "L Arginine group-mean normalization preserves original RSD",
+        "passed": true
+      },
+      {
+        "check": "L Arginine all35 summary retained and narrow-window robustness",
+        "passed": true
+      },
+      {
+        "check": "L Arginine file-provided mass grid used",
+        "passed": true
+      },
+      {
+        "check": "L Arginine correct exported UI Raw and Relative metadata",
+        "passed": true
+      },
+      {
+        "check": "L Arginine full raw peak-window X export",
+        "passed": true
+      },
+      {
+        "check": "L Arginine full raw-window intensity export exact",
+        "passed": true
+      },
+      {
+        "check": "L Arginine fixed +/-45-row robustness maxima",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil all35 identities and inclusion",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil every raw peak height",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil every original peak X",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil every original peak row",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil every plotted relative intensity",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil unique summary row",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil all summary metrics",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil group-mean normalization preserves original RSD",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil all35 summary retained and narrow-window robustness",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil file-provided mass grid used",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil correct exported UI Raw and Relative metadata",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil full raw peak-window X export",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil full raw-window intensity export exact",
+        "passed": true
+      },
+      {
+        "check": "L Verapamil fixed +/-45-row robustness maxima",
+        "passed": true
+      },
+      {
+        "check": "L 35 supplemental ratio scans",
+        "passed": true
+      },
+      {
+        "check": "L every supplemental Ver/Arg ratio",
+        "passed": true
+      },
+      {
+        "check": "Summary exactly four group/ion rows",
+        "passed": true
+      },
+      {
+        "check": "Supplemental ratio exactly70 records",
+        "passed": true
+      },
+      {
+        "check": "Excel Summary row count",
+        "passed": true
+      },
+      {
+        "check": "Excel All140_peak_records row count",
+        "passed": true
+      },
+      {
+        "check": "Excel Arginine70 row count",
+        "passed": true
+      },
+      {
+        "check": "Excel Verapamil70 row count",
+        "passed": true
+      },
+      {
+        "check": "Excel Ver_to_Arg_supplement row count",
+        "passed": true
+      },
+      {
+        "check": "Excel Methods row count",
+        "passed": true
+      },
+      {
+        "check": "Excel 原始文件校验 row count",
+        "passed": true
+      },
+      {
+        "check": "Excel Summary no error cells",
+        "passed": true
+      },
+      {
+        "check": "Excel All140_peak_records no error cells",
+        "passed": true
+      },
+      {
+        "check": "Excel Arginine70 no error cells",
+        "passed": true
+      },
+      {
+        "check": "Excel Verapamil70 no error cells",
+        "passed": true
+      },
+      {
+        "check": "Excel Ver_to_Arg_supplement no error cells",
+        "passed": true
+      },
+      {
+        "check": "Excel Methods no error cells",
+        "passed": true
+      },
+      {
+        "check": "Excel 原始文件校验 no error cells",
+        "passed": true
+      },
+      {
+        "check": "D original XLSX SHA256 preserved",
+        "passed": true
+      },
+      {
+        "check": "L original XLSX SHA256 preserved",
+        "passed": true
+      },
+      {
+        "check": "Record states70 scans/140 peaks retained",
+        "passed": true
+      },
+      {
+        "check": "Record explicitly avoids D absolute m/z assumption",
+        "passed": true
+      },
+      {
+        "check": "Record exposes differing source Raw UI settings",
+        "passed": true
+      },
+      {
+        "check": "Scientific limitation: exported signal variability only",
+        "passed": true
+      },
+      {
+        "check": "Only two main figures, each contains all70 real scan points",
+        "passed": true
+      },
+      {
+        "check": "01_Arginine_Target_Stability png 600dpi and size",
+        "passed": true
+      },
+      {
+        "check": "01_Arginine_Target_Stability tiff 600dpi and size",
+        "passed": true
+      },
+      {
+        "check": "02_Verapamil_Relative_Intensity png 600dpi and size",
+        "passed": true
+      },
+      {
+        "check": "02_Verapamil_Relative_Intensity tiff 600dpi and size",
+        "passed": true
+      }
+    ]
+  }
+}
