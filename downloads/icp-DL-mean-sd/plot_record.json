@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "group": "D",
+      "n": 35,
+      "mean_peak_voltage_mV": 132.7122857142857,
+      "sample_SD_mV": 2.560159192791921,
+      "SD_ddof": 1,
+      "annotation": "Mean \u00b1 SD: 132.712 \u00b1 2.560 mV",
+      "median_mV": 131.958,
+      "IQR_mV": 2.2890000000000157,
+      "measured_scans_deleted": 0,
+      "displayed_once": true
+    },
+    {
+      "group": "L",
+      "n": 35,
+      "mean_peak_voltage_mV": 144.8957714285714,
+      "sample_SD_mV": 1.8434477143738697,
+      "SD_ddof": 1,
+      "annotation": "Mean \u00b1 SD: 144.896 \u00b1 1.843 mV",
+      "median_mV": 144.576,
+      "IQR_mV": 3.298000000000002,
+      "measured_scans_deleted": 0,
+      "displayed_once": true
+    }
+  ],
+  "display_groups": 2,
+  "actual_scan_points": 70,
+  "voltage_conversion": "Provisional V=X*0.002 mV; unverified calibration",
+  "renderer": "Matplotlib",
+  "hollow_points": "Statistical candidates, retained in data",
+  "raster_dpi": 600
+}
