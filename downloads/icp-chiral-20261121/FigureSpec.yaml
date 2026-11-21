@@ -1,0 +1,123 @@
+figure:
+  id: ICP_D_L_Arginine_waterfall
+  title: null
+  graph_kind: true_3d_line_waterfall
+  not_a_surface: true
+runtime:
+  preferred_backend: Origin on Windows
+  actual_backend: Matplotlib mplot3d
+  native_origin_available: false
+  save_project: false
+  native_opju_generated: false
+data:
+- id: D
+  source: D_Origin_XYZ_plot.csv
+  format: csv
+  object: worksheet_XYZ
+  roles:
+    x: V_aligned_mV_assumed
+    y: sample_depth
+    z: I_normalized
+  source_scan: y16
+  no_smoothing: true
+- id: L
+  source: L_Origin_XYZ_plot.csv
+  format: csv
+  object: worksheet_XYZ
+  roles:
+    x: V_aligned_mV_assumed
+    y: sample_depth
+    z: I_normalized
+  source_scan: y20
+  no_smoothing: true
+page:
+  id: main
+  size_mm:
+  - 325.12
+  - 182.88
+  aspect_ratio: '16:9'
+  background: white
+layers:
+- id: waterfall
+  page: main
+  dimension: 3D
+  x:
+    title: V_AC (mV)
+    subscript: AC
+    limits:
+    - 120
+    - 160
+    major_step: 5
+    calibration: provisional X*0.002
+  y:
+    title: Sample
+    categories:
+      D-Arginine: 0.0
+      L-Arginine: 1.8
+    front: D-Arginine
+  z:
+    title: Normalized intensity
+    limits:
+    - 0
+    - 1.2
+    major_step: 0.2
+plots:
+- id: D_line
+  layer: waterfall
+  data_ref: D
+  type: line3d
+  color: '#2166AC'
+  line_width_pt: 1.9
+  line_style: solid
+  markers: false
+  fill: false
+- id: L_line
+  layer: waterfall
+  data_ref: L
+  type: line3d
+  color: '#D73027'
+  line_width_pt: 1.9
+  line_style: solid
+  markers: false
+  fill: false
+annotations:
+- type: text3d
+  sample: D
+  x: 132.7122857142857
+  y: 0
+  z: 1.055
+  text: 132.712 mV
+  font_size_pt: 11.5
+  color: '#2166AC'
+- type: text3d
+  sample: L
+  x: 144.89577142857144
+  y: 1.8
+  z: 1.055
+  text: 144.896 mV
+  font_size_pt: 11.5
+  color: '#D73027'
+style:
+  font_family: Arial
+  axis_title_pt: 13
+  tick_label_pt: 11
+  grid: light gray
+  camera:
+    elevation: 23
+    azimuth: -60
+    focal_length: 1.35
+export:
+  png:
+    dpi: 600
+  tiff:
+    dpi: 600
+    compression: LZW
+  pdf:
+    vector: true
+  save_clean_data: true
+provenance:
+  normalization: per scan I/Imax
+  selection: nearest group median peak position
+  alignment: V_original - V_peak + V_mean
+  calibration_verified: false
+  delta_V_mV_assumed: 12.183485714285723

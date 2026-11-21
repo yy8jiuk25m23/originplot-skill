@@ -1,0 +1,74 @@
+{
+  "normalization": "I / per-scan maximum; no smoothing, no fitting, no reconstructed peak",
+  "voltage_mapping": {
+    "slope_mV_per_X": 0.002,
+    "offset_mV": 0,
+    "verified_calibration": false,
+    "basis": "User-specified provisional assumption: 150000 sample intervals correspond to 0–300 mV; V=X*300/150000. No calibration metadata found."
+  },
+  "experiment": {
+    "technique": "Ion Cloud Profiling (ICP)",
+    "analytes": [
+      "D-Arginine",
+      "L-Arginine"
+    ],
+    "additive": "Verapamil Hydrochloride",
+    "same_frequency": true,
+    "frequency_Hz": null,
+    "voltage_parameter_mV_user_provided": 300
+  },
+  "representatives": {
+    "D": {
+      "sample": "D",
+      "scan": "y16",
+      "scan_number": 16,
+      "original_peak_X": 65979.0,
+      "original_peak_mV_assumed": 131.958,
+      "mean_peak_X": 66356.14285714286,
+      "mean_peak_mV_assumed": 132.7122857142857,
+      "translation_mV": 0.7542857142857101,
+      "I_max": 100.0,
+      "FWHM_X": 199.99583623974468,
+      "FWHM_mV_assumed": 0.39999167247948936,
+      "median_distance_X": 0.0,
+      "tied_candidate_count": 1,
+      "tied_candidate_scans": [
+        "y16"
+      ],
+      "main_peak_0p1percent_left_aligned_mV": 132.0022857142857,
+      "main_peak_0p1percent_right_aligned_mV": 136.4082857142857
+    },
+    "L": {
+      "sample": "L",
+      "scan": "y20",
+      "scan_number": 20,
+      "original_peak_X": 72288.0,
+      "original_peak_mV_assumed": 144.576,
+      "mean_peak_X": 72447.88571428572,
+      "mean_peak_mV_assumed": 144.89577142857144,
+      "translation_mV": 0.3197714285714319,
+      "I_max": 2513356.0,
+      "FWHM_X": 198.85941083563375,
+      "FWHM_mV_assumed": 0.39771882167126754,
+      "median_distance_X": 0.0,
+      "tied_candidate_count": 1,
+      "tied_candidate_scans": [
+        "y20"
+      ],
+      "main_peak_0p1percent_left_aligned_mV": 143.26577142857144,
+      "main_peak_0p1percent_right_aligned_mV": 147.84377142857144
+    }
+  },
+  "delta_V_mV_assumed": 12.183485714285723,
+  "plot_x_limits_mV": [
+    120.0,
+    160.0
+  ],
+  "all_valid_scans_retained": true,
+  "all_data_raw_checksums_preserved": true,
+  "FWHM_method": "Nearest left/right Imax/2 crossings enclosing the global maximum; linear interpolation of each crossing only for width measurement. No signal points interpolated for plotting.",
+  "peak_tie_policy": "First original X at maximum; all 70 current scans have a unique maximum.",
+  "representative_policy": "Minimum absolute distance to group median peak X; only exact-distance ties favor complete half-height shape, fewer acquisition flags, then lower original scan number.",
+  "renderer": "Matplotlib mplot3d; Origin unavailable in this Linux instance; fallback accepted by user",
+  "font": "Arial"
+}

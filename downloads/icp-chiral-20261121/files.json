@@ -1,0 +1,137 @@
+[
+  {
+    "file": "D_Origin_XYZ_plot.csv",
+    "bytes": 1231001,
+    "sha256": "6071f1dea9503b3cbbd13d1035e199d1d4f8431c4ede5f0237c4584a23b438ac"
+  },
+  {
+    "file": "D_all_scans_normalized.npz",
+    "bytes": 3711866,
+    "sha256": "5379b587501d2f7cf246f0b3c11248cd77fa36790947b02d67bae1a014abec78"
+  },
+  {
+    "file": "D_representative_full.csv.gz",
+    "bytes": 1034285,
+    "sha256": "13b6b2a6855b88cec3d2e760cfec0c3eff9e5fc7884290b51e3666b45f77dffa"
+  },
+  {
+    "file": "FigureSpec.yaml",
+    "bytes": 2210,
+    "sha256": "08ae5de6a666bddeeffa01e55d4d4c1af05e636b7971aa3e08af7014bf80cd8b"
+  },
+  {
+    "file": "Figure_caption_EN.txt",
+    "bytes": 1377,
+    "sha256": "6c747b53bad9ed0214f767bcbb6b71f2aebacc463a3b9c8e757437337629baea"
+  },
+  {
+    "file": "Figure_caption_ZH.txt",
+    "bytes": 1017,
+    "sha256": "39b640d1eff15f2eb90c2caf57eb53563ac6f56444ed972622d88a5a0856f636"
+  },
+  {
+    "file": "ICP_D_L_complete_data_and_figures.zip",
+    "bytes": 22936466,
+    "sha256": "2394fbb37395ab7666616406e6b70db0fb2552d8311ffa21a26697113a563ba3"
+  },
+  {
+    "file": "ICP_D_L_figure_files.zip",
+    "bytes": 2784635,
+    "sha256": "3b9518744075aad9fd404873ad1a46b39d4d99c1183b72f141a0f13fdd744ff4"
+  },
+  {
+    "file": "ICP_D_L_waterfall_600dpi.png",
+    "bytes": 924608,
+    "sha256": "241fbe2dba837dbfb4fc77cc1e3fe4099142333530c0de2d66e04449962004ae"
+  },
+  {
+    "file": "ICP_D_L_waterfall_600dpi.tiff",
+    "bytes": 2166918,
+    "sha256": "0f47bc8f57f4147994bfc1fcb7f4e435279c954d2fc173799fc5ed92d2ba0aea"
+  },
+  {
+    "file": "ICP_D_L_waterfall_preview.png",
+    "bytes": 198085,
+    "sha256": "75949b5ef3de049b51a6e8e3d180a67a6311a574b5f8ff0453a7b0238b7770e2"
+  },
+  {
+    "file": "ICP_D_L_waterfall_vector.pdf",
+    "bytes": 370809,
+    "sha256": "a1d35980bad1d7438614aeba64475ef7299728dea2b588161edd3882e8b6ebcf"
+  },
+  {
+    "file": "ICP_D_L_waterfall_vector.svg",
+    "bytes": 1028579,
+    "sha256": "587c8967c3bf977e26a9790c6aa8630492275ecc83ad095814370553d84acfce"
+  },
+  {
+    "file": "ICP_peak_statistics_and_processing.xlsx",
+    "bytes": 1796213,
+    "sha256": "11e4fc86a91edfb20f9a348436341cc204dd676d8449706ed3ac1369af1279ee"
+  },
+  {
+    "file": "L_Origin_XYZ_plot.csv",
+    "bytes": 1277197,
+    "sha256": "d1f69e7d68a56aefa6bffa33d2035f984065bc69945b8951c296e1ed57c68585"
+  },
+  {
+    "file": "L_all_scans_normalized.npz",
+    "bytes": 4589276,
+    "sha256": "f449e4666b82481b2f016077b8be3ae4a0258786b1cab32bbb99e1d8203d2cba"
+  },
+  {
+    "file": "L_representative_full.csv.gz",
+    "bytes": 1133072,
+    "sha256": "8f4072551a10fa3b7c0a4c3686b6ef20696f5a98520d41d22bab235fa74eaf1c"
+  },
+  {
+    "file": "Methods_and_processing_record.md",
+    "bytes": 3904,
+    "sha256": "30dda965e79c5516f82308dd0d584c4bca8485c1ea6c49180e2000da833dc118"
+  },
+  {
+    "file": "README.md",
+    "bytes": 3988,
+    "sha256": "2448f3378b6d9d2a644c3142efc30cf6f65a86c1bf508f16eed3a68f0b2d57ef"
+  },
+  {
+    "file": "all_70_scan_peak_statistics.csv",
+    "bytes": 19388,
+    "sha256": "cb298cd38b195e1aba14ec70bc6e2c51b21d64bde4390a5a7da9df1619ac7e68"
+  },
+  {
+    "file": "combined_aligned_plot_data.csv",
+    "bytes": 2508085,
+    "sha256": "851ecda01c799c163245941321bc18bbcc34915a2e3a6176536917ec8441432d"
+  },
+  {
+    "file": "group_summary_statistics.csv",
+    "bytes": 1086,
+    "sha256": "00c98f7a13240cd0035f52a8e9c1faabf0a4a42b6e65dca386ac2055b59d3b9e"
+  },
+  {
+    "file": "processing_record.json",
+    "bytes": 2754,
+    "sha256": "0c510cca75d0c6764bca65745e1e17682aba59a194a46cea7a0e9faa9dc693e8"
+  },
+  {
+    "file": "raw_file_metadata.json",
+    "bytes": 11025,
+    "sha256": "dbd782286a6a95ecbfcce645a250635c18be4286ad30df45bc0c049f516ca53b"
+  },
+  {
+    "file": "rendering_record.json",
+    "bytes": 754,
+    "sha256": "6e9620d2c6eb262765f0139b7a786605a67bc1ea41267d523bda55c0e96182fb"
+  },
+  {
+    "file": "software_versions.json",
+    "bytes": 316,
+    "sha256": "dfd9db904589ad9b705cc1e5c79cad34a1b97d649d8a0d56e0b0d01adb493b83"
+  },
+  {
+    "file": "validation_results.json",
+    "bytes": 644,
+    "sha256": "fbd1d52d8fc23456f0beed17b48f9b173f870ed6367338e1cbf663003d55d618"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "all_70_scans_retained": true,
+  "35_scans_per_group": true,
+  "all_max_normalized_to_one": true,
+  "input_X_and_signal_not_modified": true,
+  "FWHM_half_height_crossings_recomputed": true,
+  "representatives_minimize_distance_to_median": true,
+  "translation_is_constant": true,
+  "no_intensity_or_FWHM_change_after_translation": true,
+  "plot_points_are_original_normalized_samples": true,
+  "source_XLSX_checksums_unchanged": true,
+  "XLSX_statistics_complete": true,
+  "600dpi_TIFF_PNG_dimensions_verified": true,
+  "calibration_verified": false,
+  "native_Origin_rendered": false,
+  "delta_V_from_unrounded_means": 12.183485714285723
+}
